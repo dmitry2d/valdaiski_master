@@ -1,0 +1,38 @@
+
+
+$body-bg: #ffffff;
+
+$custom-colors: (
+  "gray-medium": $gray-500,
+  "gray-footer": $gray-600,
+  "style-yellow": #F9EB56,
+  "style-green": #A4C400,
+  "style-darkgreen": #43B000,
+  "style-red": #FF8743,
+  "style-blue": #778EC7,
+  "style-lightblue": #40A9F5,
+  "style-darkblue": #294594,
+  "style-cyan": #4FC1E4
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$nav-link-font-weight: 600;
+$navbar-dark-color: $white;
+$navbar-dark-active-color: $primary;
+$navbar-dark-hover-color: $primary;
+$navbar-nav-link-padding-x: 1rem;
+$dropdown-padding-x: 0;
+$dropdown-padding-y: 0;
+$dropdown-item-padding-y: 1rem;
+$dropdown-link-color: $primary;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $primary;
+$dropdown-border-width: 0em;
+$dropdown-border-radius: 0em;
+$dropdown-inner-border-radius: 0rem;
+$dropdown-divider-margin-y: 0rem;
+$border-radius: 0.5rem;
+$breadcrumb-divider: quote("»");
+
+// Основной шрифт
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
