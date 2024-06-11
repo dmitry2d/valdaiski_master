@@ -12,32 +12,23 @@
     <meta name="theme-color" content="#ffffff">
     <title>Валдайский мастер</title>
 </head>
-<body>
+<body class="dark-mode">
     
-</body>
-</html>
-
-
 <?php
 
     include 'components/header.php';
-
 
 ?>
     
     <!-- Контент -->
     <section class="content">
-        <div class="container-xl px-3 py-5">
-<!-- 
-            <h4><a href="index-page.php">Главная страница</a></h4>
-            <h4><a href="service-page.php">Услуга</a></h4>
-            <h4><a href="doctor-page.php">Врач</a></h4>
-            <br>
-            <br>
-            <br>
-            <h4><a href="export.zip">Файлы для верстки</a></h4> -->
         
+        <div class="container-xl px-3 py-5 my-5">
+            <h4>
+                <a href="page-home.php">Главная страница</a>
+            </h4>
         </div>
+
     </section>
     <!-- Контент -->
 
@@ -50,5 +41,8 @@
     ?>
 
     
-</body>
-</html>
+<?php
+
+    include 'components/footer.php';
+
+?>

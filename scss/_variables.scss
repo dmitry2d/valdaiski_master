@@ -1,19 +1,19 @@
 
 
 $body-bg: #ffffff;
+$gradient-green: linear-gradient(0deg, #296C02, #6E9D01);
+$button-gradient: $gradient-green;
+$color-grey: #676E68;
+$color-light: #DFE2DF;
+$color-lightest: #F1F6F2;
 
 $custom-colors: (
-  "gray-medium": $gray-500,
-  "gray-footer": $gray-600,
-  "style-yellow": #F9EB56,
-  "style-green": #A4C400,
-  "style-darkgreen": #43B000,
-  "style-red": #FF8743,
-  "style-blue": #778EC7,
-  "style-lightblue": #40A9F5,
-  "style-darkblue": #294594,
-  "style-cyan": #4FC1E4
+  "style-green-darkest": #283B2B,
+  "style-grey": $color-grey,
+  "style-light": $color-light,
+  "style-lightest": $color-lightest 
 );
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $nav-link-font-weight: 600;

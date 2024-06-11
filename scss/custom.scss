@@ -27,6 +27,12 @@ $fa-font-path: "../webfonts";
 
 
 // Стили модулей проекта
-// @import "index-header"; 
+@import "buttons"; 
+@import "page"; 
+@import "page-header"; 
+@import "page-footer"; 
+@import "header-menu"; 
+@import "mobile-menu"; 
+@import "color-mode"; 
 
 

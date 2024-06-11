@@ -1,0 +1,13 @@
+
+html {
+    font-size: 17px;
+}
+.page-content  {
+    min-height: 40vh;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

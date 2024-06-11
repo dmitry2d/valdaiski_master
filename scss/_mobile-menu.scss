@@ -1,0 +1,101 @@
+.mobile-menu {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.24s ease-out;
+    &.open {
+        left: 0;
+    }
+    .close {
+        padding: 10px;
+        cursor: pointer;
+    }
+    .wrapper {
+        padding: 45px 32px;
+        position: absolute;
+        inset: 0;
+        background: white;
+    }
+    .title {
+        font-size: 33px;
+        font-weight: 200;
+    }
+    .menu-items {
+        padding: 5px 15px;
+        .item {
+            cursor: pointer;
+            .item-title {
+                display: flex;
+                align-items: center;
+                padding: 7px 0;
+                span, a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                img {
+                    margin-left: 10px;
+                    transform: rotate(0deg);
+                    transition: transform 0.2s;
+                }
+            }
+            .subitems {
+                display: none;
+                a {
+                    font-size: 14px;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    color: $color-grey
+                }
+                .subitem {
+                    padding: 4px 0;
+                    &.selected {
+                        a {
+                            background-color: $color-lightest
+                        }
+                    }
+                }
+            }
+            &.open {
+                .subitems {
+                    display: block;
+                }
+                .item-title {
+                    img {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+        }
+    }
+    .subitems {
+        padding: 5px 15px;
+    }
+
+    .contacts {
+        font-size: 16px;
+        .time {
+            font-size: 16px;
+            font-weight: 600;
+            span {
+                display: block;
+                font-weight: 200;
+                color: $color-grey;
+                }
+                }
+                .email {
+            a {
+                text-decoration: none;
+            }
+        }
+        .phones {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

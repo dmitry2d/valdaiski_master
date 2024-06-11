@@ -1,0 +1,21 @@
+.color-mode {
+    cursor: pointer;
+    font-size: 13px;
+    .mode.dark {
+        opacity: 0.4;
+    }
+    .mode.light {
+        opacity: 1;
+    }
+    &.dark {
+        .mode.dark {
+            opacity: 1;
+        }
+        .mode.light {
+            opacity: 0.4;
+        }
+        .switcher {
+            transform: scaleX(-1);
+        }
+    }
+}
