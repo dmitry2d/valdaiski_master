@@ -9,9 +9,10 @@ $color-lightest: #F1F6F2;
 
 $custom-colors: (
   "style-green-darkest": #283B2B,
+  "style-green-dark": #1D5525,
   "style-grey": $color-grey,
   "style-light": $color-light,
-  "style-lightest": $color-lightest 
+  "style-lightest": $color-lightest,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
