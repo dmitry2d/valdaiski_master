@@ -27,6 +27,7 @@
             <h4>
                 <a href="page-home.php">Главная страница</a><br>
                 <a href="page-news.php">Новости</a>
+                <a href="page-news-article.php">Новость</a>
             </h4>
         </div>
 

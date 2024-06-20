@@ -5,6 +5,7 @@ $gradient-green: linear-gradient(0deg, #296C02, #6E9D01);
 $button-gradient: $gradient-green;
 $color-grey: #676E68;
 $color-light: #DFE2DF;
+$color-lighter: #E1E9E2;
 $color-lightest: #F1F6F2;
 
 $custom-colors: (
@@ -12,6 +13,7 @@ $custom-colors: (
   "style-green-dark": #1D5525,
   "style-grey": $color-grey,
   "style-light": $color-light,
+  "style-lighter": $color-lighter,
   "style-lightest": $color-lightest,
 );
 

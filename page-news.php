@@ -43,6 +43,12 @@
 
         </div>
 
+        <!-- Навигация страниц -->
+        <div class="my-5 pt-2 d-flex justify-content-center">
+            <?php include "./components/page-nav.php" ?>
+        </div>
+        <!-- / Навигация страниц -->
+
         <!-- / Новости -->
 
 
