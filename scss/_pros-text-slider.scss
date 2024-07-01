@@ -1,0 +1,119 @@
+
+
+.pros-text-slider {
+
+    .items {
+
+        .item {
+            width: 30vw;
+            margin-right: 20px;
+            padding: 20px 0;
+        }
+        .title {
+            font-size: 21px;
+            line-height: 25px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .text {
+
+            font-size: 15px;
+            overflow: hidden;
+            line-height: 22px;
+            color: $color-grey;
+        }
+    }
+    
+
+    .pros-text-slider-nav {
+        position: relative;
+        z-index: 100;
+        .pros-text-slider-prev {
+            img {
+                transform: rotate(90deg);
+                position: relative;
+                left: -1px;
+            }
+        }
+        .pros-text-slider-next {
+            img {
+                transform: rotate(-90deg);
+            }
+            margin-left: 10px;
+        }
+        .pros-text-slider-prev,
+        .pros-text-slider-next {
+            display: flex;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $primary;
+            border-radius: 30px;
+            img {
+                width: 11px;
+            }
+        }
+    }
+
+}
+
+
+
+@include media-breakpoint-down(xl) {
+    .pros-text-slider {
+
+        .items {
+
+            position: relative;
+            &::after {
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 40px;
+                content: '';
+                background: linear-gradient(-90deg, #ffffff, #ffffff00);
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+
+    .pros-text-slider {
+        
+        .items {
+            &::after {
+                display: none;
+            }
+            .item {
+                width: 100%;
+                border-top: 1px $color-light solid;
+                border-bottom: 1px $color-light solid;
+                margin-bottom: 10px;
+                &.open {
+                    .text {
+                        height: auto;
+                        padding-top: 20px;
+                    }
+                    .title {
+                        background: url('../img/slider_item_close.svg') no-repeat right 0;
+                    }
+                }
+                .title {
+                    cursor: pointer;
+                    pointer-events: all;
+                    padding-right: 40px;
+                    background: url('../img/slider_item_open.svg') no-repeat right 0;
+                }
+                .text {
+                    height: 0;
+                }
+            }
+        }
+    }
+
+}

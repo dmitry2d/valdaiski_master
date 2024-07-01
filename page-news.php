@@ -19,7 +19,7 @@
                 <div href="">Новости</div>
             </div>
     
-            <div class="page-title">
+            <div class="page-title mb-3">
                 Новости и промо-акции
             </div>
     

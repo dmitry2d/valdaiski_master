@@ -1,10 +1,16 @@
 
 
 .theme-button {
+    
     border-radius: 8px;
     font-size: 14px;
     padding: 1px;
     background: $primary;
+
+    &.padding-2 {
+        padding: 2px;
+    }
+
     &.gradient {
         background: $button-gradient;
     }
@@ -12,7 +18,10 @@
         border-radius: 6px;
         padding: 5px 14px;
     }
-    a {
+    &.gradient-ltr {
+        background: $button-gradient-ltr; 
+    }
+     a {
         text-decoration: none;
     }
 }

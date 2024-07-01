@@ -2,16 +2,25 @@
 
 $body-bg: #ffffff;
 $gradient-green: linear-gradient(0deg, #296C02, #6E9D01);
+$gradient-green-ltr: linear-gradient(90deg, #296C02, #6E9D01);
 $button-gradient: $gradient-green;
+$button-gradient-ltr: $gradient-green-ltr;
+
 $color-grey: #676E68;
+$color-light-grey: #B3B7B4;
 $color-light: #DFE2DF;
 $color-lighter: #E1E9E2;
 $color-lightest: #F1F6F2;
 
+$pros-slider-title: #6E9D01;
+$pros-slider-text: #646464;
+
 $custom-colors: (
   "style-green-darkest": #283B2B,
   "style-green-dark": #1D5525,
+  "style-green-medium": #445547,
   "style-grey": $color-grey,
+  "style-light-grey": $color-light-grey,
   "style-light": $color-light,
   "style-lighter": $color-lighter,
   "style-lightest": $color-lightest,

@@ -1,0 +1,42 @@
+
+
+.pros-slider {
+    .wrapper {
+        border-radius: 10px;
+        .left-box,
+        .right-box {
+            height: 75px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .pros-slider-item {
+            display: flex;
+            align-items: center;
+            height: 75px;
+            padding: 10px 20px;
+            .title {
+                font-size: 56px;
+                font-weight: 200;
+                text-wrap: nowrap;
+                color: $pros-slider-title;
+            }
+            .text {
+                font-size: 14px;
+                font-weight: 400;
+                color: $pros-slider-text;
+                padding-left: 10px;
+                line-height: 1;
+            }
+
+
+            transition: margin 0.5s linear;
+            &.gone {
+                margin-top: -75px;
+            }
+        }
+
+        
+    }
+}
