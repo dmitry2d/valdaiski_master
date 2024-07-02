@@ -1,0 +1,123 @@
+
+
+.youtube-widget {
+
+    background: $color-primary-green url('../img/yt_widget_bg.svg') no-repeat top left;
+    background-size: contain;
+    color: white;
+
+    .left {
+        float: left;
+        width: 47%;
+    }
+
+    .left-2 {
+        clear: left;
+        float: left;
+        width: 47%;
+    }
+
+    .right {
+        float: right;
+        width: 53%;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 200;
+    }
+
+    .tags {
+        .tag {
+            background: $color-secondary-grey;
+            padding: 8px 16px;
+            border-radius: 40px;
+            display: inline-block;
+            margin: 0 8px 8px 0;
+            a {
+                font-size: 13px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .view {
+        background: white url('../img/yt-play.svg') no-repeat right 20px center;
+        padding: 12px 55px 12px 26px;
+        border-radius: 40px;
+        display: inline-block;
+        a {
+            font-size: 15px;
+            text-decoration: none;
+            color: $color-primary-green;
+            font-weight: 500;
+        }
+    }
+    .links {
+        $c: white;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        color: $c;
+        div {
+            padding-right: 24px;
+        }
+        a {
+            color: $c;
+            text-decoration: none;
+        }
+    }
+    .videos {
+        .main {
+            height: 0;
+            padding-bottom: 57%;
+            position: relative;
+        }
+        .main-wrapper {
+            position: absolute;
+            inset: 0;
+        }
+        .items {
+            overflow-x: auto;
+            overflow-y: hidden;
+            height: 130px;
+
+            &::-webkit-scrollbar {
+                // width: 6px;
+                height: 6px;
+            }
+            
+            &::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background: #3C4E3F;
+                opacity: 0.1;
+            }
+            
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background: #8E9B91;
+            }
+
+
+            .items-wrapper {
+                display: flex;
+                .item {
+                    min-width: 210px;
+                    height: 120px;
+                    position: relative;
+                    .item-wrapper {
+                        width: 200px;
+                        height: 100px;
+                        position: absolute;
+                        inset: 0;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+}

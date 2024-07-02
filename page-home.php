@@ -29,6 +29,14 @@
             include "./components/popular.php";
         ?>
 
+        <?php
+            include "./components/catalogue-widget.php";
+        ?>
+
+        <?php
+            include "./components/youtube-widget.php";
+        ?>
+
     </div>
 
     <?php

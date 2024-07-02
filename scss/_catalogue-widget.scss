@@ -1,0 +1,96 @@
+.catalogue-widget {
+    .title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .catalogue-widget-item {
+        .wrapper {
+            background: $color-lightest;
+            border-radius: 8px;
+            padding: 30px 20px;
+        }
+        .head {
+            display: flex;
+            align-items: center;
+            color: $color-primary-green;
+            .id {
+                font-size: 28px;
+                font-weight: 300;
+                padding-right: 10px;
+            }
+            .cat {
+                line-height: 1.2;
+                font-size: 13px;
+                font-weight: 700;
+                margin: 0 20px 0 10px;
+                padding: 0 0 8px 0;
+                border-bottom: 1px solid $color-primary-green;
+                flex-grow: 1;
+            }
+            .area {
+                font-size: 13px;
+                font-weight: 700;
+                padding: 4px 10px;
+                background: white;
+                border-radius: 8px;
+            }
+        }
+        .photo {
+            img {
+                width: 100%;
+            }
+            margin-top: 15px;
+        }
+        .title {
+            font-size: 20px;
+            line-height: 1.2;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .description {
+            font-size: 14px;
+            line-height: 1.6em;
+            color: $color-grey;
+            height: 6.4em;
+            margin: 20px 0;
+            text-align: center;
+
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+
+        }
+        .view {
+
+            text-align: center;
+            a {
+                display: inline-block;
+                background: $color-secondary-grey;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+            margin: 25px 0 12px;
+
+        }
+    }
+        
+}
+
+
+@include media-breakpoint-between(md, xl) {
+    .catalogue-widget {
+        .catalogue-widget-item {
+            .description {
+                height: 4.8em;
+                -webkit-line-clamp: 3;
+            }
+        }
+    }
+}
+@include media-breakpoint-down(xl) {
+    .catalogue-widget {
+    }
+}

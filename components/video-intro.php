@@ -1,6 +1,6 @@
 
             
-<div class="video-intro container g-0 my-sm-5 overflow-hidden">
+<div class="video-intro container my-sm-5 overflow-hidden">
     <div class="row">
         <div class="order-2 order-sm-1 col-xl-6 text-sm-center text-xl-start">
             <div class="tag bg-style-lightest text-style-green-darkest my-3 d-inline-block">

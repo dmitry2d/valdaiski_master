@@ -1,6 +1,6 @@
 
 
-<div class="showroom container g-0">
+<div class="showroom container">
     
     <div class="d-flex align-items-end">
         <div class="title pe-2 text-style-grey">
