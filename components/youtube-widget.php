@@ -2,11 +2,11 @@
 
 <div class="youtube-widget bg-style-green-darkest py-5">
 
-    <div class="container py-5">
+    <div class="container pt-4 mb-2">
         
         <div class="right">
             
-            <div class="videos">
+            <div class="videos mt-4 mt-lg-0">
                 <div class="main">
                     <div class="main-wrapper">
                         <iframe
@@ -93,11 +93,11 @@
                 <img src="./assets/img/yt_logo.svg" alt="">
             </div>
 
-            <div class="title my-5">
+            <div class="title my-2 my-xl-5">
                 Обзоры современных домов на <b>канале «Валдайский Мастер»</b>
             </div>
 
-            <div class="tags my-5">
+            <div class="tags mt-4 mt-xl-2 pe-3">
                 <div class="tag"><a href="">Обзоры домов</a></div>
                 <div class="tag"><a href="">Рум-Туры</a></div>
                 <div class="tag"><a href="">Строительство</a></div>
@@ -107,12 +107,12 @@
 
         </div>
 
-        <div class="left-2 mt-5">
-            <div class="view mt-2">
+        <div class="left-2 mt-5 mt-lg-0 text-center text-md-start">
+            <div class="view">
                 <a href="">Смотреть больше обзоров</a>
             </div>
 
-            <div class="links d-flex mt-4">
+            <div class="links d-flex mt-4 flex-column flex-md-row">
                 <div class="link">
                     <span>• </span>
                     <a href="">@karkasniy_dom</a>
@@ -128,12 +128,8 @@
             </div>
         </div>
     
+        <div class="clearfix" style="clear: both">&nbsp;</div>
 
     </div>    
 
-    <div class="clearfix" style="clear: both">&nbsp;</div>
-<!-- 
-    <div class="container">
-
-    </div> -->
 </div>

@@ -6,6 +6,7 @@ $gradient-green-ltr: linear-gradient(90deg, #296C02, #6E9D01);
 $button-gradient: $gradient-green;
 $button-gradient-ltr: $gradient-green-ltr;
 
+$color-ice: #f5f5f5;
 $color-grey: #676E68;
 $color-secondary-grey: #445547;
 $color-primary-green: #283B2B;
@@ -19,6 +20,7 @@ $pros-slider-text: #646464;
 
 $custom-colors: (
   "style-green-darkest": $color-primary-green,
+  "style-primary-green": $color-primary-green,
   "style-green-dark": #1D5525,
   "style-green-medium": #445547,
   "style-grey": $color-grey,

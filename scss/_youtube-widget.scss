@@ -2,6 +2,10 @@
 
 .youtube-widget {
 
+    .container {
+        position: relative;
+    }
+
     background: $color-primary-green url('../img/yt_widget_bg.svg') no-repeat top left;
     background-size: contain;
     color: white;
@@ -12,9 +16,10 @@
     }
 
     .left-2 {
-        clear: left;
-        float: left;
-        width: 47%;
+        position: absolute;
+        left: 15px;
+        bottom: 20px;
+
     }
 
     .right {
@@ -31,11 +36,12 @@
     .tags {
         .tag {
             background: $color-secondary-grey;
-            padding: 8px 16px;
             border-radius: 40px;
             display: inline-block;
-            margin: 0 8px 8px 0;
+            margin: 0 4px 8px 0;
             a {
+                display: block;
+                padding: 5px 16px 6px;
                 font-size: 13px;
                 text-decoration: none;
                 color: white;
@@ -120,4 +126,67 @@
 
     }
 
+}
+
+
+@include media-breakpoint-down(xl) {
+    .youtube-widget {
+        .title {
+            font-size: 32px;
+        }
+        .links {
+            opacity: 0.5;
+        }
+    }
+}
+
+
+@include media-breakpoint-down(lg) {
+    .youtube-widget {
+        
+        background-size: cover;
+        .container {
+
+            display: flex;
+            flex-direction: column;
+
+            .left,
+            .left-2,
+            .right {
+                display: block;
+                float: none;
+                position: relative;
+                width: 100%;
+            }
+
+            .left {
+                order: 1;
+            }
+            .right {
+                order: 2;
+            }
+            .left-2 {
+                order: 3;
+                left: unset;
+                bottom: unset;
+            }
+
+        }
+
+        .links {
+            .link {
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .youtube-widget {
+        .videos .main {
+            left: -30px;
+            width: calc(100% + 60px);
+        }
+    }
 }

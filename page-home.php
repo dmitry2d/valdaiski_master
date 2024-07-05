@@ -37,6 +37,14 @@
             include "./components/youtube-widget.php";
         ?>
 
+        <?php
+            include "./components/about-widget.php";
+        ?>
+
+        <?php
+            include "./components/mother-capital.php";
+        ?>
+
     </div>
 
     <?php

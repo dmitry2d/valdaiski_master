@@ -37,9 +37,12 @@
             </div>
         </div>
         
-        <div class="col-xl-6 order-1 order-sm-2 mb-4 mb-sm-0">
+        <div class="col-xl-6 order-1 order-sm-2 mb-4 mb-sm-0 pb-4 pb-xl-5">
             <div class="video">
-                <img src="./assets/img/photo/house02.png" alt="" class="w-100 h-100 rounded-sm-2 shadow-lg">
+                <video controls autoplay>
+                    <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm" /> -->
+                    <source src="./assets/video/videoplayback.mp4" type="video/mp4" />
+                </video>
             </div>
         </div>
 
