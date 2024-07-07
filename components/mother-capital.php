@@ -19,12 +19,18 @@
                 </div>
             </div>
             <div class="slider">
-                <div class="mother-capital-logo-items">
-                    <div class="item"><img src="./assets/img/logos/Logo_company 01.png" alt=""></div>
-                    <div class="item"><img src="./assets/img/logos/Logo_company 02.png" alt=""></div>
-                    <div class="item"><img src="./assets/img/logos/Logo_company 03.png" alt=""></div>
-                    <div class="item"><img src="./assets/img/logos/Logo_company 04.png" alt=""></div>
-                    <div class="item"><img src="./assets/img/logos/Logo_company 05.png" alt=""></div>
+                <div class="slider-wrapper">
+                    <div class="mother-capital-logo-items">
+                        <div class="item"><img src="./assets/img/logos/Logo_company 01.png" alt=""></div>
+                        <div class="item"><img src="./assets/img/logos/Logo_company 02.png" alt=""></div>
+                        <div class="item"><img src="./assets/img/logos/Logo_company 03.png" alt=""></div>
+                        <div class="item"><img src="./assets/img/logos/Logo_company 04.png" alt=""></div>
+                        <div class="item"><img src="./assets/img/logos/Logo_company 05.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="nav d-none d-md-flex">
+                    <div class="prev"><img src="./assets/img/arr.svg" alt=""></div>
+                    <div class="next"><img src="./assets/img/arr.svg" alt=""></div>
                 </div>
             </div>
             <div class="stats mt-4 p-4">

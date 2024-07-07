@@ -4,9 +4,7 @@ $(document).ready (e => {
     // return;
 
     $('.showroom-items').slick({
-        // slidesToShow: 1,
-        slidesToScroll: 1,
-        // fade: true,
+        slidesToScroll: 3,
         arrows: true,
         prevArrow: $('.showroom-prev'),
         nextArrow: $('.showroom-next'),

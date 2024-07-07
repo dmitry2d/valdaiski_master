@@ -8,3 +8,4 @@ import './showroom_gallery.js';
 import './pros_slider.js';
 import './pros_text_slider.js';
 import './popular_tags.js';
+import './mother-capital.js';

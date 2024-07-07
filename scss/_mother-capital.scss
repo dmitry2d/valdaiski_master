@@ -43,15 +43,12 @@
         }
     }
 
-    .slider {
-        overflow: hidden;
-    }
-    .mother-capital-logo-items {
-        display: flex;
-        .item {
-            padding-right: 10px;
-        }
-    }
+    // .mother-capital-logo-items {
+    //     display: flex;
+    //     .item {
+    //         padding-right: 10px;
+    //     }
+    // }
     
     .stats {
         border-top: 1px solid $color-light-grey;
@@ -109,6 +106,72 @@
         grid-column-end: span 2;
         color: $color-light-grey;
         font-size: 11px;
+    }
+
+    .slider {
+        position: relative;
+        height: 63px;
+        // width: 400px;
+        .slider-wrapper {
+            overflow: hidden;
+            position: absolute;
+            inset: 0;
+        }
+        .mother-capital-logo-items {
+            .item {
+                width: 140px;
+                background: white;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+                img {
+
+                }
+            }        
+        }
+        .nav {
+            pointer-events: none;
+            position: absolute;
+            inset: 0 -20px 0 -20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .next,
+            .prev {
+                cursor: pointer;
+                pointer-events: all;
+                width: 20px;
+                height: 20px;
+                background-color: white;
+                box-shadow: 0 5px 8px #00000020;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .prev {
+                img {
+                    transform: rotate(90deg);
+                }
+            }
+            .next {
+                img {
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+
+        .item {
+            // background: white;
+            width: 200px;
+            // img {
+            //     width: 100%;
+            //     height: 100%;
+            //     object-fit: cover;
+            // }
+        }
     }
 
 
