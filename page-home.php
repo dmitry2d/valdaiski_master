@@ -45,6 +45,14 @@
             include "./components/mother-capital.php";
         ?>
 
+        <?php
+            include "./components/works-gallery.php";
+        ?>
+
+        <?php
+            include "./components/consult-footer-widget.php";
+        ?>
+
     </div>
 
     <?php

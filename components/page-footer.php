@@ -1,5 +1,5 @@
 
-<div class="page-footer bg-style-lightest w-100 mt-5 pb-md-5">
+<div class="page-footer bg-style-lightest w-100 pb-md-5">
 
     <div class="container">
 
