@@ -1,0 +1,92 @@
+
+.individual-widget {
+
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto auto;
+
+    background: $color-dust;
+    padding: 52px 60px;
+    border-radius: 16px;
+
+
+    .title {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        font: 400 32px/1 $fmain;
+        padding-right: 50px;
+    }
+    
+    .photo {
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        grid-column-start: 2;
+        position: relative;
+        
+
+        img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+    }
+
+    .description1 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        font: 400 15px/22px $fmain;
+        color: $color-grey;
+        margin: 20px 0;
+        padding-right: 50px;
+    }
+    .description2 {
+        grid-row-start: 3;
+        grid-column-start: 2;
+        font: 400 15px/22px $fmain;
+        color: $color-grey;
+        margin: 40px 0 0;
+    }
+    .form {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        padding-right: 50px;
+        form {
+            margin: 50px 0 20px;
+            input[type="text"] {
+                color: $color-primary-green;
+                font: 400 12px/1 $fmain;
+                &::placeholder {
+                    color: $color-primary-green;
+                    opacity: 0.5;
+                }
+                border: 0;
+                outline: none;
+                position: relative;
+                display: block;
+                width: 100%;
+                background: transparent;
+                border-bottom: 1px solid rgba(var(--bs-style-primary-green-rgb),0.4);
+                margin: 10px 0;
+                padding: 12px 0;
+            }
+            input[type="submit"] {
+                color: white;
+                font: 400 14px/1.5 $fmain;
+                border-radius: 8px;
+                border: 0;
+                padding: 10px 17px;
+                margin: 10px 0;
+                background: $color-secondary-grey;
+            }
+        }
+    }
+    .warning {
+        font: 400 11px/1.4 $fmain;
+        color: $color-grey;
+    }
+
+}

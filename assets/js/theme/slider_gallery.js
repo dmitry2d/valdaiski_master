@@ -23,8 +23,8 @@ $(document).ready (e => {
             dots: false,
             centerMode: false,
             // asNavFor: `[slider-gallery-id="${id}"] .slider-gallery-nav`
-          });
-          $(`[slider-gallery-id="${id}"] .slider-gallery-nav`).slick({
+        });
+        $(`[slider-gallery-id="${id}"] .slider-gallery-nav`).slick({
             slidesToShow: 10,
             slidesToScroll: 1,
             asNavFor: `[slider-gallery-id="${id}"] .slider-gallery-items`,
@@ -46,7 +46,7 @@ $(document).ready (e => {
                     }
                 }
             ]
-          });
+        });
 
     });
 

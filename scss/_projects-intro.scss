@@ -1,0 +1,146 @@
+.projects-intro {
+    position: relative;
+    padding: 60px;
+    border-radius: 16px;
+    overflow: hidden;
+    color: white;
+    .photo {
+        position: absolute;
+        inset: 0;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        z-index: 1;
+        .fader {
+            position: absolute;
+            inset: 0;
+            background: black;
+            opacity: 0.15;
+        }
+
+    }
+    & > div {
+        position: relative;
+        z-index: 2;
+    }
+    .tag {
+        border-radius: 20px;
+        display: inline-block;
+        padding: 7px 12px 9px;
+        font: 500 13px/10px $fmain;
+        color: $color-secondary-grey;
+        background: white;
+    }
+    .title {
+        font: 700 32px/1.06 $fmain;
+        margin-top: 3em;
+        width: 45%;
+    }
+    .subtitle {
+        font: 200 32px/1.06 $fmain;
+        width: 45%;
+    }
+    .description {
+        font: 400 16px/24px $fmain;
+        margin-top: 2em;
+        color: $color-lightest;
+        width: 45%;
+    }
+
+    .theme-button {
+        a {
+            div {
+                padding: 11px 24px 12px;
+                font: 700 14px/1.5 $fmain;
+            }
+        }
+    }
+    
+    
+    &.inside {
+
+        background: $color-lightest;
+        padding: 60px 70px;
+        color: $primary;
+
+        .photo {
+            left: 50%;
+            img {
+                object-position: 0% 50%;
+            }
+        }
+
+        .tag {
+            background: $color-secondary-grey;
+            color: white;
+        }
+
+        .title {
+            font: 700 40px/1.06 $fmain;
+            margin-top: 1em;
+            color: $primary;
+        }
+
+        .description {
+            font: 400 15px/22px $fmain;
+            margin-top: 2em;
+            color: $primary;
+            width: 45%;
+        }
+
+    }
+
+}
+
+@include media-breakpoint-down(xl) {
+    .projects-intro:not(.inside) {
+        .title {
+            width: 100%;
+        }
+        .subtitle {
+            width: 100%;
+        }
+        .description {
+            width: 100%;
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    .projects-intro.inside,
+    .projects-intro {
+        position: relative;
+        padding: 24px 32px;
+        .title {
+            font: 600 32px/1.06 $fmain;
+            margin-top: 2em;
+            width: 100%;
+
+        }
+        .subtitle {
+            font: 200 25px/1.06 $fmain;
+            width: 100%;
+
+        }
+        .description {
+            font: 400 14px/1.5 $fmain;
+            margin-top: 1em;
+            width: 100%;
+
+        }
+
+        &.inside {
+            padding: 24px 32px;
+            .photo {
+                position: relative;
+                left: -20px;
+                width: calc(100% + 40px);
+            }
+            .title {
+                margin-top: 0;
+            }
+        }
+
+    }
+}

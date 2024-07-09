@@ -29,6 +29,7 @@ $fa-font-path: "../webfonts";
 // Стили модулей проекта
 @import "buttons"; 
 @import "page"; 
+@import "breadcrumbs"; 
 @import "page-header"; 
 @import "page-footer"; 
 @import "header-menu"; 
@@ -51,5 +52,8 @@ $fa-font-path: "../webfonts";
 @import "mother-capital"; 
 @import "works-gallery"; 
 @import "consult-footer-widget"; 
+@import "projects-intro"; 
+@import "individual-widget"; 
+@import "project-card"; 
 
 

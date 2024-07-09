@@ -1,0 +1,123 @@
+
+
+.project-card {
+
+
+    .card-wrapper {
+        
+        display: grid;
+        grid-template-columns: auto 40%;
+        grid-template-rows: auto auto;
+        
+        
+        padding: 32px 24px;
+        border-radius: 16px;
+        background: $color-lightest;
+    }
+    
+    .card-slider-wrapper {
+        padding: 12px 24px;
+        margin-top: 20px;
+        border-radius: 16px;
+        background: $color-lightest;
+    }
+
+    .ch {
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+
+    .project-slider-main {
+
+        grid-row-start: 1;
+        grid-column-start: 1;
+        
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+
+
+        .items {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: stretch;
+            .slick-track {
+                display: flex;
+                align-items: stretch;
+            }
+            .slick-slide {
+                height: auto;
+            }
+            .item {
+                width: 100%;
+                height: unset;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 8px;
+                }
+            }
+        }
+        .project-slider-nav {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            pointer-events: none;
+            & > div {
+                cursor: pointer;
+                pointer-events: all;
+            }
+            .project-slider-prev {
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+    }
+    
+    .project-slider-gallery {
+            
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-start: span 2;
+
+        overflow: hidden;
+        
+        .items {
+            display: flex;
+            .item {
+                position: relative;
+                padding-bottom: 20px;
+                margin-right: 20px;
+                img {
+                    height: 88px;
+                    width: 140px;
+                    object-fit: cover;
+                }
+                &.slick-active:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 4px;
+                    border-radius: 6px;
+                    background: $gradient-green-ltr;
+                }
+            }
+
+        }
+
+    }
+
+    .title {
+        font: 300 32px/1.1 $fmain;
+    }
+}

@@ -25,9 +25,13 @@
         
         <div class="container-xl px-3 py-5 my-5">
             <h4>
-                <a href="page-home.php">Главная страница</a><br>
-                <a href="page-news.php">Новости</a><br>
-                <a href="page-news-article.php">Новость</a>
+                <a href="./page-home.php">Главная страница</a><br>
+                <hr>
+                <a href="./page-news.php">Новости</a><br>
+                <a href="./page-news-article.php">Новость</a><br>
+                <hr>
+                <a href="./page-projects.php">Проекты</a><br>
+                <a href="./page-project.php">Проект</a><br>
             </h4>
         </div>
 
