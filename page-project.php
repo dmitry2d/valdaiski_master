@@ -26,7 +26,7 @@
     ?>
 
     <?php
-        // include "./components/youtube-widget.php";
+        include "./components/youtube-widget.php";
     ?>
 
     <?php

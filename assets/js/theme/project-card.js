@@ -12,7 +12,8 @@ $(document).ready (e => {
             nextArrow: $('.project-slider-next'),
             dots: false,
             centerMode: false,
-            asNavFor:  $('.project-slider-gallery .items')
+            asNavFor:  $('.project-slider-gallery .items'),
+            infinite: true
         });
         $('.project-slider-gallery .items').slick({
             // slidesToShow: 10,
@@ -24,5 +25,9 @@ $(document).ready (e => {
             focusOnSelect: true,
             variableWidth: true
         });
+
+        $('.open-description-button').on('click', function () {
+            $(this).closest('.project-description').toggleClass ('open');
+        })
 
     });
