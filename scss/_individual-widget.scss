@@ -90,3 +90,31 @@
     }
 
 }
+
+@include media-breakpoint-down(lg) {
+    .individual-widget {
+        display: flex;
+        flex-direction: column;
+        .title {
+            padding-right: 0px;
+        }
+        > div {
+            padding-right: 0;
+        }
+        .description2 {
+            margin: 0;
+        }
+        .photo img {
+            height: 200px;
+            margin: 50px 0 20px 0;
+            position: relative;
+        }
+        .form {
+            margin: 0;
+            width: 100%;
+            form {
+                width: 100%;
+            }
+        }
+    }
+}

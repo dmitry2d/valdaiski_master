@@ -196,6 +196,37 @@
                 height: unset;
             }
         }
+        .full-title {
+            font: 600 32px/1.2 $fmain;
+            max-width: 900px;
+            margin: auto;
+        }
+        .full-description {
+            font: 400 16px/1.5 $fmain;
+            color: $color-grey;
+            max-width: 900px;
+            margin: auto;
+
+        }
+        .full-tags {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            .full-tag {
+                cursor: pointer;
+                text-decoration: none;
+                margin: 0 10px 13px 0;
+                font: 400 13px/1.1 $fmain;
+                color: $color-secondary-grey;
+                padding: 10px 15px;
+                border-radius: 30px;
+                border:1px solid $color-secondary-grey;
+                &.active {
+                    background: $color-secondary-grey;
+                    color: white;
+                }
+            }
+        }
     }
     
 }
@@ -223,6 +254,11 @@
                     box-shadow: 0 16px 16px rgba(29, 85, 37, 0.118235);
                     opacity: 1;
                 }
+            }
+        }
+        &.works-gallery-full {
+            .full-title {
+                font: 600 24px/1.2 $fmain;
             }
         }
     }

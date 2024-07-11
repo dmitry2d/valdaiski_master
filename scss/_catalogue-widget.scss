@@ -1,7 +1,8 @@
 .catalogue-widget {
     .title {
-        font-size: 24px;
-        line-height: 1.2;
+        font: 600 12px/1.2 $fmain;
+        color: $color-secondary-grey;
+        text-transform: uppercase;
     }
     .catalogue-widget-item {
         .wrapper {
@@ -92,5 +93,10 @@
 }
 @include media-breakpoint-down(xl) {
     .catalogue-widget {
+        .title {
+            font: 400 24px/1.2 $fmain;
+            color: $primary;
+            text-transform: unset;
+        }
     }
 }
