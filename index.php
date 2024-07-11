@@ -32,6 +32,10 @@
                 <hr>
                 <a href="./page-projects.php">Проекты</a><br>
                 <a href="./page-project.php">Проект</a><br>
+                <hr>
+                <a href="./page-works.php">Работы</a><br>
+                <a href="./page-work.php">Работа</a><br>
+
             </h4>
         </div>
 

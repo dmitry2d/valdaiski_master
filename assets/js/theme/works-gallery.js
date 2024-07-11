@@ -1,6 +1,6 @@
 $(document).ready (e => {
 
-    $('.works-gallery-slider .items').slick({
+    $('.works-gallery-slider .works-gallery-items').slick({
         slidesToScroll: 1,
         arrows: true,
         prevArrow: $('.works-gallery-prev'),
