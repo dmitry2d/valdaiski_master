@@ -12,7 +12,6 @@
                 <script src="https://yastatic.net/share2/share.js"></script>
                 <div class="ya-share2" data-curtain data-shape="round" data-limit="0" data-more-button-type="short" data-services="messenger,vkontakte,odnoklassniki"></div>
             </div>
-
         </div>
     
     </div>

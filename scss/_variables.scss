@@ -32,6 +32,7 @@ $custom-colors: (
   "style-light": $color-light,
   "style-lighter": $color-lighter,
   "style-lightest": $color-lightest,
+  "style-ice": $color-ice,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
