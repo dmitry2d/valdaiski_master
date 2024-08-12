@@ -1,8 +1,8 @@
 
 
-<div class="page-header">
+<!-- <div class="page-header"> -->
 
-    <div class="header-top bg-style-green-darkest">
+    <div class="page-header-top bg-style-green-darkest">
 
         <div class="container d-flex align-items-center py-2">
             <img src="./assets/img/icn/location.svg" alt="" class="d-none d-md-block">
@@ -24,13 +24,13 @@
 
     </div>
 
-    <div class="header-bottom">
+    <div class="page-header-bottom">
         <div class="container py-4 border-bottom border-bottom-1 border-style-light">
 
             <div class="d-flex align-items-center">
 
                 <!-- Лого -->
-                <a href="/" class="logo flex-grow-1">
+                <a href="./index.php" class="logo flex-grow-1">
                     <img src="./assets/img/logo.svg" alt="">
                 </a>
                 <!-- /Лого -->
@@ -132,7 +132,7 @@
         </div>
     </div>
 
-</div>
+<!-- </div> -->
 
 
 <?php

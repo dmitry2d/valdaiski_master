@@ -1,5 +1,5 @@
 
-.page-header {
+.page-header-top {
     .cities {
         font-size: 11px;
         font-weight: 400;
@@ -15,6 +15,13 @@
         @extend .email;
         font-size: 16px;
     }
+    
+}
+.page-header-bottom {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background: white;
     .hamburger {
         cursor: pointer;
     }

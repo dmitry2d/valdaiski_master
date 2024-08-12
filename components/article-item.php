@@ -7,7 +7,7 @@
         <div class="photo col-12">
             <img src="./assets/img/photo/house01.png" alt="" class="w-100 rounded-2">
         </div>
-        <div class="px-4 py-3 px-sm-5 py-sm-">
+        <div class="px-4 py-3 px-sm-5">
             <div class="d-flex flex-column flex-sm-row">
                 <div class="article-item-date flex-grow-1 text-style-grey my-3 my-sm-1">
                     3 января 2024 — 11:48

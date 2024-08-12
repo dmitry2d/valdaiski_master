@@ -3,8 +3,6 @@
     include "./components/header.php";
 
     include "./components/page-header.php";
-
-    include "./components/breadcrumbs.php";
 ?>
 
 <div class="page-content">
@@ -20,7 +18,9 @@
         </div>
 
         <?php
+            
             include "./components/article.php";
+
         ?>
 
     </div>
@@ -28,9 +28,9 @@
 </div>
 
 <?php
-    include "./components/page-footer.php";
-?>
 
-<?php
+
+    include "./components/page-footer.php";
+
     include "./components/footer.php";
 ?>

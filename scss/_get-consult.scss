@@ -1,0 +1,62 @@
+.get-consult-desktop {
+
+    background: $color-lightest;
+    border-radius: 8px;
+    padding: 36px 46px;
+
+    .wrapper {
+        display: flex;
+    }
+
+    .left {
+        padding-right: 30px;
+    }
+
+    .title {
+        font: 700 24px/1.5 $fmain;
+    }
+    .text {
+        font: 400 16px/1.5 $fmain;
+        padding: 20px 0;
+    }
+
+    .logos {
+        display: flex;
+        margin-top: 10px;
+        a {
+            margin-right: 10px;
+        }
+    }
+
+}
+
+.get-consult-mobile {
+
+    padding: 5px 0;
+
+    .title {
+        font: 700 16px/1.5 $fmain;
+        margin-bottom: 10px;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -3px;
+        a {
+            display: flex;
+            align-items: center;
+            margin: 3px;
+            border: 1px solid $color-light-grey;
+            border-radius: 5px;
+            text-decoration: none;
+            padding: 3px 8px;
+            div {
+                padding-left: 6px;
+                font-size: 16px;
+                color: $color-secondary-grey;
+            }
+        }
+    }
+
+}

@@ -3,17 +3,35 @@
 // Кастомизированные глобальные переменные Botstrap
 @import "./global_variables";
 
+
+
 // Необходимые модули для кастомизации Bootstrap
 @import  "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
 
 // Кастомизированные переменные Botstrap
 @import "./_variables";
 
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities, (
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 
 // Основные модули Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 // Font Awesome
 $fa-font-path: "../webfonts";
@@ -57,5 +75,6 @@ $fa-font-path: "../webfonts";
 @import "project-card"; 
 @import "work-page"; 
 @import "page-reviews"; 
+@import "get-consult"; 
 
 
