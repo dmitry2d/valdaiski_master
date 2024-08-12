@@ -11,3 +11,4 @@ import './popular_tags.js';
 import './mother-capital.js';
 import './works-gallery.js';
 import './project-card.js';
+import './page-reviews.js';

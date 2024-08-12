@@ -35,6 +35,8 @@
                 <hr>
                 <a href="./page-works.php">Работы</a><br>
                 <a href="./page-work.php">Работа</a><br>
+                <hr>
+                <a href="./page-reviews.php">Отзывы</a><br>
 
             </h4>
         </div>
