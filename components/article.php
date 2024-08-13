@@ -116,13 +116,35 @@
             Мы предоставляем возможность бесплатной консультации с нашими специалистами по выбору проекта и комплектации, а также по всем вопросам, связанным со строительством. Не упустите возможность построить свой дом мечты с выгодной скидкой! Свяжитесь с нами уже сегодня и получите подробную информацию о наших проектах и условиях акции.
         </p>  
 
-        <div class="border-1 border-top border-style-primary-green mt-5"></div>
+        <!-- Аватар и шара -->
 
+        <div class="d-flex mt-5">
+            <div class="d-flex flex-grow-1 article-author">
+                <img src="./assets/img/photo/loginov01.png" alt="">
+                <div>
+                    <div class="title">Автор новости:</div>
+                    <div class="name">Логинов Александр</div>
+                </div>
+            </div>
+            <div class="">
+                <script src="https://yastatic.net/share2/share.js"></script>
+                <div class="ya-share2" data-curtain data-shape="round" data-limit="0" data-more-button-type="short" data-services="messenger,vkontakte,odnoklassniki"></div>
+            </div>
+        </div>
+
+        <!-- / Аватар и шара -->    
+
+        <!-- Консультация -->
+        
+        <div class="border-1 border-top border-style-primary-green mt-4 mt-lg-5"></div>
+        
         <div class="my-3 my-lg-5">
             <?php include "./components/get-consult.php"; ?>
         </div>
-
+        
         <div class="border-1 border-top border-style-primary-green my-3 my-lg-5 mb-5 d-block d-lg-none"></div>
+        
+        <!-- Консультация -->
 
     </div>
 

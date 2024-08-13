@@ -32,6 +32,23 @@
     padding: 1px 5px;
 }
 
+.article-author {
+    img {
+        width: 32px;
+        height: 32px;
+        border-radius: 100px;
+        border: 1px solid #ddd;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+    .title {
+        font: 400 12px/1.4 $fmain;
+    }
+    .name {
+        font: 700 14px/1.5 $fmain;
+    }
+}
+
 .article-photo {
     .article-photo-img {
         width: 100%;

@@ -27,8 +27,11 @@
             <h4>
                 <a href="./page-home.php">Главная страница</a><br>
                 <hr>
+                <a href="./page-about.php">О компании</a><br>
+                <hr>
                 <a href="./page-news.php">Новости</a><br>
                 <a href="./page-news-article.php">Новость</a><br>
+                <a href="./page-news-article2.php">Новость 2</a><br>
                 <hr>
                 <a href="./page-projects.php">Проекты</a><br>
                 <a href="./page-project.php">Проект</a><br>
