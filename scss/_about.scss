@@ -1,0 +1,93 @@
+.about {
+    .about-top {
+        text-align: center;
+        .title {
+            font: 400 32px/1.1 $fmain;
+        }
+        .text {
+            font: 400 16px/1.5 $fmain;
+            color: $color-secondary-grey;
+        }
+    }
+    .about-banner {
+        img {
+            height: 480px;
+            width: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+    }
+    .about-partners {
+        font: 500 10px/1 $fmain;
+        text-transform: uppercase;
+        letter-spacing: 0.7em;
+        color: $color-grey;
+        .about-partners-items {
+            display: flex;
+            a {
+                height: 100px;
+                // width: 253px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    .about-excursion {
+        background: $color-dust;
+        border-radius: 8px;
+        padding: 32px 36px;
+        .title {
+            font: 200 28px/1.1 $fmain;
+            color: $color-primary-green;
+            margin: 15px 0;
+        }
+        .subtitle{
+            font: 400 14px/1.6 $fmain;
+            color: $color-grey;
+            margin: 15px 0;
+        }
+        form {
+            input {
+                border: 1px solid $color-light-grey;
+                border-radius: 8px;
+                background: white;
+                font: 400 14px/1.2 $fmain;
+                padding: 16px 11px;
+                outline: none;
+                &::placeholder {
+                    color: $color-light-grey;
+                }
+                margin: 5px 0;
+                width: 100%;
+            }
+            button {
+                color: white;
+                border: none;
+                font: 400 14px/1.2 $fmain;
+                padding: 16px 11px;
+                outline: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .warning {
+            font: 400 12px/1.5 $fmain;
+            color: $color-grey;
+            text-align: center;
+        }
+    }
+    .about-content {
+        font-size: 15px;
+        .title {
+            font: 600 24px/1.5 $fmain; 
+        }
+    }
+    @include media-breakpoint-down(lg) {
+    }
+}

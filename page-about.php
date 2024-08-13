@@ -17,7 +17,7 @@
 
         <?php
             
-            // include "./components/article.php";
+            include "./components/about.php";
 
         ?>
 

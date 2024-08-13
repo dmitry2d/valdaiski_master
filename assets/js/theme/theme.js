@@ -12,3 +12,4 @@ import './mother-capital.js';
 import './works-gallery.js';
 import './project-card.js';
 import './page-reviews.js';
+import './about-partners.js';
