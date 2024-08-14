@@ -1,0 +1,56 @@
+.contacts {
+
+    .title {
+        font: 700 32px/1.5 $fmain;
+    }
+
+    .subtitle {
+        font: 400 16px/1.5 $fmain;
+        color: $color-secondary-grey;
+    }
+    
+    .contact-geo {
+        
+        background: $color-lightest;
+        border-radius: 8px;
+        padding: 24px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        .map {
+            border-radius: 8px;
+            overflow: hidden;
+            border: 4px solid white;
+        }
+        
+        .geo-title {
+            font: 700 24px/1.5 $fmain;
+        }
+
+        .top {
+            font-size: 14px;
+            flex-grow: 1;
+            .geo-address {
+                font-size: 16px;
+            }
+        }
+        .bottom {
+            font-size: 12px;
+            .phone,
+            a {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .phones {
+            div {
+                font: 700 15px/1.5 $fmain;
+            }
+        }
+
+    }
+
+
+
+}

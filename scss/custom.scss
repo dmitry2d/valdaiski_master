@@ -17,10 +17,19 @@
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/utilities";
 
+// Дополнительные свойства
 $utilities: map-merge(
   $utilities, (
     "font-size": map-merge(
       map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+$utilities: map-merge(
+  $utilities, (
+    "width": map-merge(
+      map-get($utilities, "width"),
       ( responsive: true ),
     ),
   )
@@ -77,5 +86,6 @@ $fa-font-path: "../webfonts";
 @import "page-reviews"; 
 @import "get-consult"; 
 @import "about"; 
+@import "contacts"; 
 
 
