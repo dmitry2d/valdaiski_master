@@ -13,3 +13,5 @@ import './works-gallery.js';
 import './project-card.js';
 import './page-reviews.js';
 import './about-partners.js';
+import './popups.js';
+import './vk-video.js';

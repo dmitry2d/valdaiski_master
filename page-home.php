@@ -28,7 +28,7 @@
     ?>
 
     <?php
-        include "./components/youtube-widget.php";
+        include "./components/vk-video-widget.php";
     ?>
 
     <?php
