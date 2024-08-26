@@ -1,7 +1,6 @@
 
 
 $(document).ready (e => {
-
     
         $('.project-slider-main .items').slick({
             slidesToShow: 1,
@@ -28,6 +27,20 @@ $(document).ready (e => {
 
         $('.open-description-button').on('click', function () {
             $(this).closest('.project-description').toggleClass ('open');
-        })
+        });
+
+        // Попапы комплектаций
+
+        $('[project-comp-popup-open]').on('click', function (){
+            const id = $(this).attr('project-comp-popup-open');
+            $(`[project-comp-popup]`).removeClass('open');
+            $(`[project-comp-popup=${id}]`).addClass('open');
+        });
+        $('[project-comp-popup] .close').on('click', function (){
+            $(this).closest('[project-comp-popup]').removeClass('open');
+        });
+        $(document).on('escKey', e => {
+            $(`[project-comp-popup]`).removeClass('open');
+        });
 
     });

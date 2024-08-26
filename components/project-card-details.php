@@ -3,14 +3,14 @@
     <div class="container mt-3 mt-lg-4">
         <div class="comp row g-3">
 
-            <div class="col-lg-4 comp-item">
+            <div class="col-lg-4 comp-item" project-comp-popup-open="1">
                 <div class="comp-wrapper">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center comp-top">
                         <div class="comp-tag">
                             Комплектация #01
                         </div>
                         <div class="comp-select">
-                            <img src="./assets/img/c-labels/selects.svg" alt="">
+                            <!-- <img src="./assets/img/c-labels/selects.svg" alt=""> -->
                         </div>
                     </div>
                     <div class="comp-title">
@@ -27,54 +27,53 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 comp-item">
+            <div class="col-lg-4 comp-item" project-comp-popup-open="2">
                 <div class="comp-wrapper">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center comp-top">
                         <div class="comp-tag">
-                            Комплектация #01
+                            Комплектация #02
                         </div>
                         <div class="comp-select">
                             <img src="./assets/img/c-labels/selects.svg" alt="">
                         </div>
                     </div>
                     <div class="comp-title">
-                        Каркас Лайт
+                        Медиум Смарт
                     </div>
                     <div class="d-flex align-items-end">
                         <div class="comp-price-title">
                             Цена:
                         </div>
                         <div class="comp-price-value">
-                            4 550 000 ₽
+                            5 850 000 ₽
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 comp-item">
+            <div class="col-lg-4 comp-item" project-comp-popup-open="3">
                 <div class="comp-wrapper">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center comp-top">
                         <div class="comp-tag">
-                            Комплектация #01
+                            Комплектация #03
                         </div>
                         <div class="comp-select">
-                            <img src="./assets/img/c-labels/selects.svg" alt="">
+                            <!-- <img src="./assets/img/c-labels/selects.svg" alt=""> -->
                         </div>
                     </div>
                     <div class="comp-title">
-                        Каркас Лайт
+                        Каркас Комплит
                     </div>
                     <div class="d-flex align-items-end">
                         <div class="comp-price-title">
                             Цена:
                         </div>
                         <div class="comp-price-value">
-                            4 550 000 ₽
+                            7 100 000 ₽
                         </div>
                     </div>
                 </div>
             </div>
-           
 
         </div>
     </div>
@@ -198,3 +197,8 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Попапы комплектаций -->
+
+    <?php include './components/project-comp-popups.php' ?>
