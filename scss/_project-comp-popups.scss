@@ -130,6 +130,13 @@
         .wrapper {
             width: 100%;
         }        
+        .price {
+            flex-direction: column;
+            justify-content: flex-end;
+            .price-value {
+                margin-top: 5px;
+            }
+        }
     }
 
 

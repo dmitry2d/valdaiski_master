@@ -74,11 +74,11 @@
         <div class="close"><img src="./assets/img/icn/close.svg" alt=""></div>
         <div class="top">
             <div class="">
-                <div class="d-flex align-items-center mb-2">
+                <div class="d-md-flex align-items-center mb-2">
                     <div class="tag">Комплектация #02</div>
-                    <img src="./assets/img/c-labels/selects.svg" alt="" class="ms-3">
+                    <img src="./assets/img/c-labels/selects.svg" alt="" class="ms-md-3 mt-2 mt-md-0">
                 </div>
-                <div class="title">Медиум Смарт&nbsp;/ Теплый контур</div>
+                <div class="title">Медиум Смарт / Теплый контур</div>
             </div>
             <div class="price">
                 <div class="price-title">Цена:</div>
