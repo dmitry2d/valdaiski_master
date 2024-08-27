@@ -7,18 +7,18 @@
         <div class="right">
             
             <div class="videos mt-4 mt-lg-0">
-                <div class="main" play-vk="main">
-                    <img src="./assets/img/_vk_video_preview.png" alt="">
+                <div class="main" insert-vk="14663474_456240156">
+                    <!-- <img src="./assets/img/_vk_video_preview.png" alt=""> -->
                 </div>
                 <div class="items mt-3">
                     <div class="items-wrapper">
                         <div class="item">
-                            <div class="item-wrapper" play-vk="111">
+                            <div class="item-wrapper" play-vk="14663474_456239828">
                                 <img src="./assets/img/_vk_video_preview.png" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="item-wrapper" play-vk="111">
+                            <div class="item-wrapper" play-vk="14663474_456239973">
                                 <img src="./assets/img/_vk_video_preview.png" alt="">
                             </div>
                         </div>
