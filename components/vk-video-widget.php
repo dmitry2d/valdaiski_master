@@ -7,7 +7,7 @@
         <div class="right">
             
             <div class="videos mt-4 mt-lg-0">
-                <div class="main" play-vk="111">
+                <div class="main" play-vk="main">
                     <img src="./assets/img/_vk_video_preview.png" alt="">
                 </div>
                 <div class="items mt-3">
@@ -87,10 +87,10 @@
         <div class="clearfix" style="clear: both">&nbsp;</div>
 
     </div>    
-
+<!-- 
     <div class="vk-video-popup vm-popup">
         <div class="close"><img src="./assets/img/popup_close.svg" alt=""></div>
         <div class="wrapper"></div>
-    </div>
+    </div> -->
 
 </div>

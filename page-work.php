@@ -291,6 +291,10 @@
             include "./components/consult-footer-widget.php";
         ?>
 
+        <?php
+            include "./components/popup-request-visit.php";
+        ?>
+
     </div>
 
 </div>

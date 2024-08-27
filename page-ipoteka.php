@@ -3,20 +3,14 @@
     include "./components/header.php";
 
     include "./components/page-header.php";
+
+    include "./components/breadcrumbs.php";
 ?>
 
 <div class="page-content">
 
     <?php
-        include "./components/video-intro.php";
-    ?>
-
-    <?php
-        include "./components/showroom.php";
-    ?>
-
-    <?php
-        include "./components/pros.php";
+        include "./components/project-card.php";
     ?>
 
     <?php
@@ -28,15 +22,11 @@
     ?>
 
     <?php
-        include "./components/vk-video-widget.php";
+        include "./components/individual-widget.php";
     ?>
 
     <?php
-        include "./components/about-widget.php";
-    ?>
-
-    <?php
-        include "./components/mother-capital.php";
+        include "./components/youtube-widget.php";
     ?>
 
     <?php
@@ -45,14 +35,6 @@
 
     <?php
         include "./components/consult-footer-widget.php";
-    ?>
-
-    <?php
-        include "./components/popup-get-consult.php";
-    ?>
-
-    <?php
-        include "./components/popup-request-success.php";
     ?>
 
 </div>

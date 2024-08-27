@@ -142,33 +142,33 @@
         }
     }
 
-    .vk-video-popup {
-        position: fixed;
-        inset: 0;
-        background: #000000a0;
-        z-index: 10000;
-        display: none;
-        &.open {
-            display: block;
-        }
-        .wrapper {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            position: absolute;
-            inset: 30px;
-            iframe {
-                // border-radius: 15px;
-            }
-        }
-        .close {
-            position: absolute;
-            top: 60px;
-            right: 60px;
-            z-index: 10;
-            cursor: pointer;
-        }
-    }
+    // .vk-video-popup {
+    //     position: fixed;
+    //     inset: 0;
+    //     background: #000000a0;
+    //     z-index: 10000;
+    //     display: none;
+    //     &.open {
+    //         display: block;
+    //     }
+    //     .wrapper {
+    //         background: white;
+    //         border-radius: 15px;
+    //         overflow: hidden;
+    //         position: absolute;
+    //         inset: 30px;
+    //         iframe {
+    //             // border-radius: 15px;
+    //         }
+    //     }
+    //     .close {
+    //         position: absolute;
+    //         top: 60px;
+    //         right: 60px;
+    //         z-index: 10;
+    //         cursor: pointer;
+    //     }
+    // }
 
 }
 

@@ -70,7 +70,7 @@
                         </div>
                     </div>
     
-                    <div class="theme-button gradient-ltr padding-2">
+                    <div class="theme-button gradient-ltr padding-2" vm-popup-open="request_work">
                         <a href="">
                             <div class="wrap text-white text-center">
                                 Отправить заявку

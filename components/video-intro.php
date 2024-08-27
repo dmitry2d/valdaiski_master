@@ -15,10 +15,10 @@
             <div class="d-sm-flex buttons my-5 justify-content-center justify-content-xl-start pb-3 pb-xl-0">
 
                     <!-- Кнопка -->
-                    <div class="theme-button gradient-ltr outline">
+                    <div class="theme-button gradient-ltr outline" vm-popup-open="get_consult">
                         <a href="">
                             <div class="wrap text-white text-center text-sm-start">
-                                Дом в ипотеку от 5%
+                                Получить консультацию
                             </div>
                         </a>
                     </div>
@@ -28,7 +28,7 @@
                     <div class="theme-button gradient outline ms-sm-4 mt-3 mt-sm-0">
                         <a href="">
                             <div class="wrap bg-white text-center text-sm-start">
-                                Получить консультацию
+                                Дом в ипотеку от 5%
                             </div>
                         </a>
                     </div>
@@ -39,7 +39,8 @@
         
         <div class="col-xl-6 order-1 order-sm-2 mb-4 mb-sm-0 pb-4 pb-xl-5">
             <div class="video">
-                <video controls autoplay>
+                <!-- <video controls autoplay> -->
+                <video controls>
                     <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm" /> -->
                     <source src="./assets/video/videoplayback.mp4" type="video/mp4" />
                 </video>
@@ -48,3 +49,5 @@
 
     </div>
 </div>
+
+
