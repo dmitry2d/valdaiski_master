@@ -1,5 +1,5 @@
 
-<div class="works-gallery bg-style-lightest mt-5 py-5">
+<div class="works-gallery bg-style-lightest py-5">
 
 
 <!-- Заголовок -->
