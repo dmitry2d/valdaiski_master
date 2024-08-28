@@ -52,6 +52,18 @@
                             <div class="">Всего комнат:</div>
                             <div class="">5</div>
                         </div>
+                        <div class="ch-row">
+                            <div class="">Всего комнат:</div>
+                            <div class="">5</div>
+                        </div>
+                        <div class="ch-row">
+                            <div class="">Всего комнат:</div>
+                            <div class="">5</div>
+                        </div>
+                        <div class="ch-row">
+                            <div class="">Всего комнат:</div>
+                            <div class="">5</div>
+                        </div>
                     </div>
     
                     <div class="components d-flex flex-wrap">
