@@ -13,36 +13,51 @@
                             <span class="visually-hidden">Loading...</span>
                         </div>
                     </div>
-                    <div class="main-video" vk-video-insert="14663474_456240156" vk-video-container="main"></div>
-                    <!-- <img src="./assets/img/_vk_video_preview.png" alt=""> -->
+                    <div class="main-video">
+                        <div class="vm-video" vm-video-player="14663474_456240156" vm-video-container="main">
+                            <!-- Миша, html тэг vm-video-container="..." -->
+                            <!-- это идентификатор этого контейнера. большого, любой случайный, напр. айди инфоблока -->
+                            <!-- он же указывается на нижних превьюхах как цель куда менять превьюху -->
+                            <!-- как vm-video-target="..." -->
+                            <img src="./assets/img/_vk_video_preview.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="items mt-3">
                     <div class="items-wrapper">
+                        
                         <div class="item">
-                            <div class="item-wrapper" vk-video-play="14663474_456239828" vk-video-target="main">
-                                <img src="./assets/img/_vk_video_preview.png" alt="">
+                            <div class="item-wrapper">
+                                <div class="vm-video vm-video-selected" vm-video-preview="14663474_456239973" vm-video-target="main">
+                                    <img src="./assets/img/_vk_video_preview.png" alt="">
+                                </div>
                             </div>
                         </div>
+
                         <div class="item">
-                            <div class="item-wrapper" vk-video-play="14663474_456239973" vk-video-target="main">
-                                <img src="./assets/img/photo/ind-project-photo.png" alt="">
+                            <div class="item-wrapper">
+                                <div class="vm-video" vm-video-preview="14663474_456239828" vm-video-target="main">
+                                    <img src="./assets/img/photo/house01.png" alt="">
+                                </div>
                             </div>
                         </div>
+
                         <div class="item">
-                            <div class="item-wrapper" vk-video-play="14663474_456239828" vk-video-target="main">
-                                <img src="./assets/img/_vk_video_preview.png" alt="">
+                            <div class="item-wrapper">
+                                <div class="vm-video" vm-video-preview="14663474_456239973" vm-video-target="main">
+                                    <img src="./assets/img/photo/girl.png" alt="">
+                                </div>
                             </div>
                         </div>
+
                         <div class="item">
-                            <div class="item-wrapper" vk-video-play="14663474_456239973" vk-video-target="main">
-                                <img src="./assets/img/_vk_video_preview.png" alt="">
+                            <div class="item-wrapper">
+                                <div class="vm-video" vm-video-preview="14663474_456239828" vm-video-target="main">
+                                    <img src="./assets/img/photo/ustugna.png" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="item-wrapper" vk-video-play="14663474_456239828" vk-video-target="main">
-                                <img src="./assets/img/_vk_video_preview.png" alt="">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>

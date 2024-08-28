@@ -1,0 +1,35 @@
+
+
+.vm-video {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    
+    &:not([ready]) {
+        cursor: pointer;
+        &::after {
+            content:'';
+            position: absolute;
+            inset: 0;
+            background: #00000090 url('../img/vk_play_button.svg') no-repeat center center;
+            background-size: 15%;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        &:hover {
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &.vm-video-selected {
+        border: 3px solid white;
+    }
+
+}

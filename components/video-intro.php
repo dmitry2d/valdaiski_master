@@ -39,11 +39,9 @@
         
         <div class="col-xl-6 order-1 order-sm-2 mb-4 mb-sm-0 pb-4 pb-xl-5">
             <div class="video">
-                <!-- <video controls autoplay> -->
-                <video controls>
-                    <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm" /> -->
-                    <source src="./assets/video/videoplayback.mp4" type="video/mp4" />
-                </video>
+                <div class="vm-video" vm-video-player="14663474_456240156" vm-video-container="index-top">
+                    <img src="./assets/img/_vk_video_preview.png" alt="">
+                </div>
             </div>
         </div>
 
