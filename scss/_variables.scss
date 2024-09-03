@@ -22,6 +22,8 @@ $color-lightest: #F1F6F2;
 $pros-slider-title: #6E9D01;
 $pros-slider-text: #646464;
 
+$color-paper: #F8f8f8;
+
 $custom-colors: (
   "style-green-darkest": $color-primary-green,
   "style-primary-green": $color-primary-green,
@@ -34,6 +36,7 @@ $custom-colors: (
   "style-lighter": $color-lighter,
   "style-lightest": $color-lightest,
   "style-ice": $color-ice,
+  "style-some-green": $color-some-green,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

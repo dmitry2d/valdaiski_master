@@ -6,6 +6,7 @@
     font-size: 14px;
     padding: 1px;
     background: $primary;
+    display: inline-block;
 
     &.padding-2 {
         padding: 2px;
@@ -15,13 +16,27 @@
         background: $button-gradient;
     }
     .wrap {
+        display: block;
         border-radius: 6px;
         padding: 5px 14px;
+        transition: background-color 0.2s;
     }
     &.gradient-ltr {
         background: $button-gradient-ltr; 
     }
      a {
         text-decoration: none;
+    }
+
+    &:hover {
+        box-shadow: 0 3px 6px rgba(var(--bs-style-some-green-rgb), 0.4);
+        .wrap {
+            color: white!important;
+            background: #ffffff00!important; 
+            * {
+                color: white!important;
+            }
+        }
+
     }
 }

@@ -43,6 +43,8 @@
                 <hr>
                 <a href="./page-ipoteka.php">Ипотека</a><br>
                 <hr>
+                <a href="./page-order.php">Заказ и доставка</a><br>
+                <hr>
                 <a href="./page-contacts.php">Контакты</a><br>
 
             </h4>
