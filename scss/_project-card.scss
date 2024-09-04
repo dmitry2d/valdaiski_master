@@ -201,7 +201,7 @@
             height: 100%;
         }
         .comp-top {
-            height: 22px;
+            height: 25px;
         }
         .comp-tag {
             color: $color-grey;
@@ -250,6 +250,11 @@
             padding: 15px 30px;
             background: $color-secondary-grey;
             border-radius: 10px;
+            transition: background-color 0.3s;
+            &:hover {
+                box-shadow: 0 3px 6px rgba(var(--bs-style-some-green-rgb), 0.4);
+                background: $gradient-green-ltr;
+            }
         }
     }
 

@@ -49,15 +49,27 @@
         }
     }
     .view {
-        background: white url('../img/yt-play.svg') no-repeat right 20px center;
         padding: 12px 55px 12px 26px;
         border-radius: 40px;
-        display: inline-block;
+        display: block;
+        margin-bottom: 12px;
         a {
             font-size: 15px;
             text-decoration: none;
             color: $color-primary-green;
             font-weight: 500;
+        }
+        &.yt {
+            background: white url('../img/yt-play.svg') no-repeat right 20px center;
+        }
+        &.vk {
+            background: #447BBA url('../img/vk-play.svg') no-repeat right 20px center;
+            a {
+                color: white;
+            }
+        }
+        &.rt {
+            background: white url('../img/rt-play.svg') no-repeat right 20px center;
         }
     }
     .links {
@@ -98,7 +110,7 @@
         .items {
             overflow-x: auto;
             overflow-y: hidden;
-            height: 130px;
+            height: 136px;
 
             &::-webkit-scrollbar {
                 height: 6px;

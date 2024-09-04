@@ -4,6 +4,8 @@
     
     .left {
         color: $color-secondary-grey;
+        position: sticky;
+        top: 110px;
     }
     .reviews-dir-text {
         font: italic 500 15px/1.5 $fmain;
@@ -16,11 +18,17 @@
         font: 500 14px/1.5 $fmain;
         background: $color-secondary-grey;
         a {
+            padding: 14px 20px;
             color: white;
             text-decoration: none;
+            display: inline-block;
         }
-        padding: 14px 20px 12px;
         border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(var(--bs-style-secondary-grey-rgb), 0.4);
+        &:hover {
+            box-shadow: 0 3px 6px rgba(var(--bs-style-some-green-rgb), 0.4);
+            background: $gradient-green-ltr;
+        }
     }
     .reviews-dir-instruct {
         font: 500 12px/1.5 $fmain;        

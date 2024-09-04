@@ -6,9 +6,9 @@
             <img src="./assets/img/photo/house01.png" alt="">
         </div>
         <div class="item-content">
-            <div class="content-title">
+            <a href="" class="content-title">
                 Сканди Карелия в Великом Новгороде
-            </div>
+            </a>
             <div class="geo">
                 <img src="./assets/img/icn/geo-gray.svg" alt="">
                 <div class="text">ЛО, Кингисеппский, СНТ "Корвет на Купле".</div>

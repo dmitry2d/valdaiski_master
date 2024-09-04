@@ -24,11 +24,11 @@
                 <input type="text" placeholder="Имя">
                 <input type="text" placeholder="Телефон">
                 <input class="mt-4" type="submit" value="Получить консультацию">
+                <div class="warning text-style-grey">
+                    <input type="checkbox" name="">&nbsp;&nbsp;Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+                    <a href="" class=" text-style-grey">Политикой конфиденциальности</a>
+                </div>
             </form>
-            <div class="warning text-style-grey">
-                Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
-                <a href="" class=" text-style-grey">Политикой конфиденциальности</a>
-            </div>
         </div>
 
     </div>

@@ -142,7 +142,8 @@
                 <form action="">
                     <input type="text" placeholder="Имя">
                     <input type="text" placeholder="Телефон">
-                    <button type="submit" value="" class="theme-button gradient-ltr my-4">Отправить</button>
+                    <!-- <button type="submit" value="" class="theme-button gradient-ltr my-4">Отправить</button> -->
+                    <input class="theme-button gradient-ltr my-4" type="submit" name="web_form_submit" value="Отправить">
                 </form>
                 <div class="warning">
                     Нажимая на кнопку «Отправить» Вы принимаете условия Пололитики конфиденциальности на обработку персональных данных

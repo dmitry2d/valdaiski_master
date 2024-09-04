@@ -42,6 +42,8 @@
         background: $color-dust;
         border-radius: 8px;
         padding: 32px 36px;
+        position: sticky;
+        top: 85px;
         .title {
             font: 200 28px/1.1 $fmain;
             color: $color-primary-green;
@@ -53,7 +55,7 @@
             margin: 15px 0;
         }
         form {
-            input {
+            input:not([type="submit"]) {
                 border: 1px solid $color-light-grey;
                 border-radius: 8px;
                 background: white;
@@ -66,14 +68,20 @@
                 margin: 5px 0;
                 width: 100%;
             }
-            button {
+            [type="submit"] {
                 color: white;
                 border: none;
+                outline: none;
                 font: 400 14px/1.2 $fmain;
                 padding: 16px 11px;
-                outline: none;
                 text-align: center;
                 width: 100%;
+                transition: background-size 0.4s;
+                background-size: 100%;
+                &:hover {
+                    box-shadow: 0 3px 6px rgba(var(--bs-style-some-green-rgb), 0.4);
+                    background-size: 150%;
+                }
             }
         }
         .warning {

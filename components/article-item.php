@@ -34,8 +34,8 @@
                     <img src="./assets/img/photo/loginov01.png" alt="">
                     <div class="text-style-green-darkest">Логинов Александр</div>
                 </div>
-                <div class="article-item-more bg-white rounded-2">
-                    <a href="" class="text-style-grey opacity-75">подробнее</a>
+                <div class="article-item-more">
+                    <a href="" class="">подробнее</a>
                 </div>
             </div>
         </div>

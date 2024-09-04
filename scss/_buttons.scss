@@ -13,7 +13,7 @@
     }
 
     &.gradient {
-        background: $button-gradient;
+        background: $button-gradient-ltr;
     }
     .wrap {
         display: block;
@@ -37,6 +37,8 @@
                 color: white!important;
             }
         }
-
     }
 }
+
+
+

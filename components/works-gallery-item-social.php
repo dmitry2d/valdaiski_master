@@ -8,7 +8,7 @@
             Смотрите больше  еженедельных фотоотчетов о строительсте
         </div>
         <div class="data">
-            <a href="" class="data-item">
+            <a href="" class="data-item vk">
                 <div class="icon"><img src="./assets/img/icn/vk-c.png" alt=""></div>
                 <div class="text">
                     <div class="name">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </a>
-            <a href="" class="data-item">
+            <a href="" class="data-item tg">
                 <div class="icon"><img src="./assets/img/icn/tg-c.png" alt=""></div>
                 <div class="text">
                     <div class="name">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </a>
-            <a href="" class="data-item">
+            <a href="" class="data-item yt">
                 <div class="icon"><img src="./assets/img/icn/yt-c.png" alt=""></div>
                 <div class="text">
                     <div class="name">

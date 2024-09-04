@@ -30,7 +30,7 @@
 
             <div class="border-bottom border-style-lighter my-5 d-none d-lg-5"></div>
 
-            <div class="row mt-5">
+            <div class="row mt-5 align-items-start">
                 <div class="col-lg-4 left">
                     <div class="d-block d-sm-flex d-lg-block">
                         <div class="reviews-dir-photo mb-4">

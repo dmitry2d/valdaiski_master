@@ -52,7 +52,7 @@
     ?>
 
     <?php
-        include "./components/popup-request-success.php";
+        // include "./components/popup-request-success.php";
     ?>
 
 </div>

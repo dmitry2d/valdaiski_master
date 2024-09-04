@@ -3,7 +3,7 @@
 .showroom  {
 
     .showroom-slider {
-
+        
         position: relative;
         &::after {
             position: absolute;
@@ -16,7 +16,18 @@
             pointer-events: none;
         }
 
+        .showroom-items {
+            display: flex;
+            // display: none;
+            &.slick-initialized {
+                .showroom-item {
+                    min-width: unset;
+                }
+            }
+        }
+
         .showroom-item {
+            min-width: 440px;
             width: 440px;
             padding-right: 30px;
 
@@ -56,6 +67,10 @@
             .titles .title,
             .metrics .area {
                 font-weight: 600;
+            }
+
+            a {
+                text-decoration: none;
             }
 
         }

@@ -4,6 +4,7 @@
     
     <div class="photo">
         <img src="./assets/img/photo/house01.png" alt="" class="w-100 rounded-2">
+        <img src="./assets/img/photo/house03.png" alt="" class="w-100 rounded-2">
     </div>
 
     <div class="data">

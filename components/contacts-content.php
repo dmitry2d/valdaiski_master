@@ -43,21 +43,21 @@
                             <div class="mb-4">
                                 <i>Консультация по предварительной записи.</i>
                             </div>
-                            <div class="d-md-flex">
-                                <div class="phones flex-grow-1 pe-2">
+                            <div class="d-flex flex-column flex-grow-1 justify-content-between">
+                                <div class="phones pe-2">
                                     <span class="">
                                         Телефоны в офисе:
                                     </span>
                                     <div class="mt-2">
-                                        <nobr>+7 (921) 191-50-01</nobr>
+                                        <nobr><a href="tel:+7 (921) 191-50-01">+7 (921) 191-50-01</a></nobr>
                                     </div>
                                     <div class="">
-                                        <nobr>+7 (921) 707-80-10</nobr>
+                                        <nobr><a href="tel:+7 (921) 707-80-10">+7 (921) 707-80-10</a></nobr>
                                     </div>
                                 </div>
                                 <div class="pt-3">
                                     <a href="">
-                                        <img src="./assets/img/raiting_border.png" alt="" class="w-md-100">
+                                        <img src="./assets/img/raiting_border.png" alt="" class="">
                                     </a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                 <div class="border-1 border-top border-style-light-grey my-4 opacity-50"></div>
                 <div class="bottom d-flex flex-column flex-md-row">
                     <div class="bottom-left flex-grow-1">
-                        <div class="phone">+7 (800) 550-96-76</div>
+                        <div class="phone"><a href="tel:+7 (800) 550-96-76">+7 (800) 550-96-76</a></div>
                         Звонок по России бесплатный
                     </div>
                     <div class="bottom-right mt-2 mt-md-0">
@@ -92,7 +92,7 @@
                                 </iframe>
                             </div>
                         </div>
-                        <div class="col-md-8 ps-md-4 order-1 order-md-2">
+                        <div class="col-md-8 ps-md-4 order-1 order-md-2 d-flex flex-column h-100">
 
                             <div class="geo-title mt-2 mb-3">
                                 Офис в Санкт-Петербурге
@@ -109,21 +109,21 @@
                             <div class="mb-4">
                                 <i>Консультация по предварительной записи.</i>
                             </div>
-                            <div class="d-md-flex">
-                                <div class="phones flex-grow-1 pe-2">
+                            <div class="d-flex flex-column flex-grow-1 justify-content-between">
+                                <div class="phones pe-2">
                                     <span class="">
                                         Телефоны в офисе:
                                     </span>
                                     <div class="mt-2">
-                                        <nobr>+7 (921) 191-50-01</nobr>
+                                        <nobr><a href="tel:+7 (921) 191-50-01">+7 (921) 191-50-01</a></nobr>
                                     </div>
                                     <div class="">
-                                        <nobr>+7 (921) 707-80-10</nobr>
+                                        <nobr><a href="tel:+7 (921) 707-80-10">+7 (921) 707-80-10</a></nobr>
                                     </div>
                                 </div>
                                 <div class="pt-3">
                                     <a href="">
-                                        <img src="./assets/img/raiting_border.png" alt="" class="w-md-100">
+                                        <img src="./assets/img/raiting_border.png" alt="" class="">
                                     </a>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                 <div class="border-1 border-top border-style-light-grey my-4 opacity-50"></div>
                 <div class="bottom d-flex flex-column flex-md-row">
                     <div class="bottom-left flex-grow-1">
-                        <div class="phone">+7 (800) 550-96-76</div>
+                        <div class="phone"><a href="tel:+7 (800) 550-96-76">+7 (800) 550-96-76</a></div>
                         Звонок по России бесплатный
                     </div>
                     <div class="bottom-right mt-2 mt-md-0">
@@ -193,7 +193,7 @@
                 <div class="border-1 border-top border-style-light-grey my-4 opacity-50"></div>
                 <div class="bottom d-flex flex-column flex-md-row">
                     <div class="bottom-left flex-grow-1">
-                        <div class="phone">+7 (800) 550-96-76</div>
+                        <div class="phone"><a href="tel:+7 (800) 550-96-76">+7 (800) 550-96-76</a></div>
                         Звонок по России бесплатный
                     </div>
                     <div class="bottom-right mt-2 mt-md-0">
@@ -271,7 +271,7 @@
         <div class="border-1 border-top border-style-light-grey my-4 opacity-50"></div>
         <div class="bottom d-flex flex-column flex-md-row">
             <div class="bottom-left flex-grow-1">
-                <div class="phone">+7 (800) 550-96-76</div>
+                <div class="phone"><a href="tel:+7 (800) 550-96-76">+7 (800) 550-96-76</a></div>
                 Звонок по России бесплатный
             </div>
             <div class="bottom-right mt-2 mt-md-0">

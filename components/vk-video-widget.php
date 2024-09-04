@@ -65,16 +65,11 @@
         </div>
 
         <div class="left pe-5">
-    
-            <div class="ytlogo">
-                <img src="./assets/img/yt_logo.svg" alt="">
+            <div class="title my-2 my-xl-2">
+                Смотреть больше видеообзоров на <b>канале «Валдайский Мастер»</b>
             </div>
 
-            <div class="title my-2 my-xl-5">
-                Обзоры современных домов на <b>канале «Валдайский Мастер»</b>
-            </div>
-
-            <div class="tags mt-4 mt-xl-2 pe-3">
+            <div class="tags mt-4 mt-xl-5 pe-3">
                 <div class="tag"><a href="">Обзоры домов</a></div>
                 <div class="tag"><a href="">Рум-Туры</a></div>
                 <div class="tag"><a href="">Строительство</a></div>
@@ -85,33 +80,19 @@
         </div>
 
         <div class="left-2 mt-5 mt-lg-0 text-center text-md-start">
-            <div class="view">
-                <a href="">Смотреть больше обзоров</a>
+            <div class="view vk">
+                <a href="">Смотреть на VK видео</a>
             </div>
-
-            <div class="links d-flex mt-4 flex-column flex-md-row">
-                <div class="link">
-                    <span>• </span>
-                    <a href="">@karkasniy_dom</a>
-                </div>
-                <div class="link">
-                    <span>• </span>
-                    <a>18,6К подписчиков</a>
-                </div>
-                <div class="link">
-                    <span>• </span>
-                    <a>276 видео</a>
-                </div>
+            <div class="view yt">
+                <a href="">Смотреть на YouTube</a>
+            </div>
+            <div class="view rt">
+                <a href="">Смотреть на RuTube</a>
             </div>
         </div>
     
         <div class="clearfix" style="clear: both">&nbsp;</div>
 
     </div>    
-<!-- 
-    <div class="vk-video-popup vm-popup">
-        <div class="close"><img src="./assets/img/popup_close.svg" alt=""></div>
-        <div class="wrapper"></div>
-    </div> -->
 
 </div>

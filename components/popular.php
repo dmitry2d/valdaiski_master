@@ -11,7 +11,7 @@
             </div>
         </div>
     
-        <div class="tags mt-5 mb-3">
+        <div class="tags">
             <div class="items">
                 <a href="#" class="item selected">Все проекты</a>
                 <a href="#" class="item">Финские и Скандинавские 80-140 м2</a>

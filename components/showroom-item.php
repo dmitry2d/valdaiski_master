@@ -8,13 +8,13 @@
             <div class="data d-flex flex-column w-100 justify-content-between">
                 <div class="tag">
                     <div class="wrap d-inline-block bg-white">
-                        Финские и Скандинавские
+                        <a href="">Финские и Скандинавские</a>
                     </div>
                 </div>
                 <div class="d-flex w-100">
                     <div class="titles flex-grow-1 pe-2">
                         <div class="title">
-                        Сканди Выборг
+                            <a href="">Сканди Выборг</a>
                         </div>
                         <div class="price">
                             от 3 450 000 ₽
