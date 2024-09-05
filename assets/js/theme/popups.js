@@ -11,6 +11,7 @@ $(document).ready (e => {
     $(document).on('click', '[vm-popup-open]', function (e){
         e.preventDefault();
         let popup_name = $(this).attr('vm-popup-open');
+        console.log(popup_name)
         $(`[vm-popup=${popup_name}]`).addClass('open');
 
     });

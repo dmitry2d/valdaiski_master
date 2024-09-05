@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="border-bottom border-style-lighter mb-4"></div>
-                    <div class="review-create">
+                    <div class="review-create" vm-popup-open="write-review">
                         <a href="">Написать отзыв о работе компании</a>
                     </div>
                     <div class="reviews-dir-instruct my-4">
@@ -94,6 +94,11 @@
     <?php
         include "./components/catalogue-widget.php";
     ?>
+
+    <?php
+        include "./components/popup-write-review.php";
+    ?>
+
 
 </div>
 
