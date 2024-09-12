@@ -145,34 +145,41 @@
 
                     <div class="col-lg-6 fw-bold text-center">
                         <div class="ratio ratio-16x9 mb-5 shadow-lg">
-                            <iframe
-                                width="100%"
-                                height="100%"
-                                src="https://www.youtube.com/embed/mZ2JRx54ijs?si=L-NBbT03E6c2GGvG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
-                            </iframe>
+                            <div class="vm-video" vm-video-preview="14663474_456239828" vm-video-target="main">
+                                <img src="./assets/img/photo/house01.png" alt="">
+                            </div>
                         </div>
-                        Обзор каркаса, начало возведения дома под СПБ. 1 Серия
+                        <div class="d-md-flex d-lg-block d-xl-flex justify-content-center">
+                            <div class="social-button-big-vk">
+                                <a href="">Смотреть на VK видео</a>
+                            </div>
+                            <div class="social-button-big-yt">
+                                <a href="">Смотреть на YouTube</a>
+                            </div>
+                            <!-- <div class="social-button-big-rt">
+                                <a href="">Смотреть на RuTube</a>
+                            </div> -->
+                        </div>
                     </div>
 
                     <div class="col-lg-6 fw-bold text-center">
                         <div class="ratio ratio-16x9 mb-5 shadow-lg">
-                            <iframe
-                                width="100%"
-                                height="100%"
-                                src="https://www.youtube.com/embed/mZ2JRx54ijs?si=L-NBbT03E6c2GGvG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
-                            </iframe>
+                            <div class="vm-video" vm-video-preview="14663474_456239828" vm-video-target="main">
+                                <img src="./assets/img/photo/house01.png" alt="">
+                            </div>
                         </div>
-                        Каркасный дом Сканди Клин 8х12,5, обзор каркаса на финише, влажность конструктива. Серия 2
+                        <div class="d-md-flex d-lg-block d-xl-flex justify-content-center">
+                            <div class="social-button-big-vk">
+                                <a href="">Смотреть на VK видео</a>
+                            </div>
+                            <div class="social-button-big-yt">
+                                <a href="">Смотреть на YouTube</a>
+                            </div>
+                            <!-- <div class="social-button-big-rt">
+                                <a href="">Смотреть на RuTube</a>
+                            </div> -->
+                        </div>
+                        <!-- Каркасный дом Сканди Клин 8х12,5, обзор каркаса на финише, влажность конструктива. Серия 2 -->
                     </div>
 
 

@@ -1,4 +1,4 @@
-<div vm-popup="request_visit" class="open">
+<div vm-popup="request_visit" class="">
     <div class="wrapper">
         <div class="close"><img src="./assets/img/popup_close.svg" alt=""></div>
         <div class="split">
