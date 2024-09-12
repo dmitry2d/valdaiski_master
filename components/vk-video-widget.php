@@ -80,13 +80,13 @@
         </div>
 
         <div class="left-2 mt-5 mt-lg-0 text-center text-md-start">
-            <div class="view vk">
+            <div class="social-button-big-vk">
                 <a href="">Смотреть на VK видео</a>
             </div>
-            <div class="view yt">
+            <div class="social-button-big-yt">
                 <a href="">Смотреть на YouTube</a>
             </div>
-            <div class="view rt">
+            <div class="social-button-big-rt">
                 <a href="">Смотреть на RuTube</a>
             </div>
         </div>

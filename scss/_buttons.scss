@@ -41,4 +41,36 @@
 }
 
 
+[class^="social-button-big-"] {
+    display: block;
+    margin-bottom: 12px;
+    a {
+        border-radius: 40px;
+        padding: 12px 55px 12px 26px;
+        font-size: 15px;
+        text-decoration: none;
+        color: $color-primary-green;
+        font-weight: 500;
+        display: block;
+        transition: 0.3s;
+        &:hover {
+            box-shadow: 0 4px 10px $color-lighter;
+        }
+    }
+    &.social-button-big-yt a {
+        background: white url('../img/yt-play.svg') no-repeat right 20px center;
+    }
+    &.social-button-big-vk a {
+        background: #447BBA url('../img/vk-play.svg') no-repeat right 20px center;
+        color: white;
+        &:hover {
+            box-shadow: 0 4px 10px #447BBA40;
+        }
+    }
+    &.social-button-big-rt a {
+        background: white url('../img/rt-play.svg') no-repeat right 20px center;
+    }
+}
+
+
 

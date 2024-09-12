@@ -175,21 +175,25 @@
                 <div class="col-xl-5">
                     <div class="project-card-tag">технология строительства</div>
                     <div class="project-card-title my-3 my-lg-5">Хотите узнать как мы строим каркасные дома?</div>
+                    <div class="left-2 mt-5 mt-lg-0 mb-4 mb-xl-0 text-center text-md-start d-md-flex d-xl-block w-xl-75 w-xxl-50">
+                        <div class="social-button-big-vk">
+                            <a href="">Смотреть на VK видео</a>
+                        </div>
+                        <div class="social-button-big-yt">
+                            <a href="">Смотреть на YouTube</a>
+                        </div>
+                        <!-- <div class="social-button-big-rt">
+                            <a href="">Смотреть на RuTube</a>
+                        </div> -->
+                    </div>
                 </div>
                 <div class="col-xl-7">
                     <div class="project-card-video">
                         <div class="project-card-video-wrapper">
 
-                            <iframe
-                                width="100%"
-                                height="100%"
-                                src="https://www.youtube.com/embed/mZ2JRx54ijs?si=L-NBbT03E6c2GGvG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
-                            </iframe>
+                        <div class="vm-video" vm-video-player="14663474_456240156" vm-video-container="index-top">
+                            <img src="./assets/img/_vk_video_preview.png" alt="">
+                        </div>
 
                         </div>
                     </div>
