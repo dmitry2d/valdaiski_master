@@ -11,10 +11,10 @@
     }
     .about-banner {
         img {
-            height: 480px;
+            // height: 480px;
             width: 100%;
             border-radius: 12px;
-            object-fit: cover;
+            // object-fit: cover;
         }
     }
     .about-partners {
@@ -98,4 +98,18 @@
     }
     @include media-breakpoint-down(lg) {
     }
+}
+
+
+#carouselAboutIntro {
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 90px;
+        opacity: 1!important;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
 }

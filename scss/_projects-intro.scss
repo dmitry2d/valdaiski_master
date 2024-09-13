@@ -144,3 +144,17 @@
 
     }
 }
+
+
+#carouselProjectsIntro {
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 50px;
+        opacity: 1!important;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
