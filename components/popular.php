@@ -37,22 +37,33 @@
 
 
 <!-- Миша возьми эти два блока и формат не меняй я поменял их по твоему формату и поменял css -->
+<!-- Обертку блоков нельзя менять, так как я заменяю лишь то, что внутри обертки -->
 
+
+        <!-- Вот это не меняется -->
         <div class="get-more my-4">
-            <div class="d-inline-block text-center" data-use="show-more-1">
+
+            <!-- Вот это меняется -->
+            <div class="d-inline-block text-center" data-use="show-more-1"> 
                 Загрузить еще...
             </div>
+            <!-- / Вот это меняется -->
+
         </div>
 
-        <div data-pagination-num="1">
-            <!-- pagination-container -->
-            <div class="popular-percent text-center">
+
+        <!-- Вот это не меняется -->
+        <div class="popular-percent text-center">
+            
+            <!-- Вот это меняется -->
+            <div data-pagination-num="1">
                 <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 11 из 48 проектов</div>
                 <div class="metric">
                     <div class="value" style="width:37.5%"></div>
                 </div>
             </div>
-            <!-- pagination-container -->
+            <!-- / Вот это меняется -->
+
         </div>
 
 <!-- // Миша возьми эти два блока и формат не меняй я поменял их по твоему формату и поменял css -->
