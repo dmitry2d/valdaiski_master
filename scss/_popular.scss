@@ -160,7 +160,7 @@
     }
     .get-more {
         text-align: center;
-        a {
+        div {
             display: inline-block;
             color: $color-grey;
             border: 1px solid $color-grey;
@@ -168,6 +168,7 @@
             font-size: 13px;
             border-radius: 10px;
             text-decoration: none;
+            cursor: pointer;
         }
     }
 }

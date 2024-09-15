@@ -1606,6 +1606,26 @@
 		
 </div>
 
+
+
+
+        <div class="text-center get-more my-4" data-use="show-more-1">
+			<div class="d-inline-block">Загрузить ещё...</div>
+		</div>
+
+		<div data-pagination-num="1">
+		    <!-- pagination-container -->
+            <div class="popular-percent text-center">
+                <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 18 из 48 проектов</div>
+                <div class="metric">
+                    <div class="value" style="width:27.5%"></div>
+                </div>
+            </div>
+		    <!-- pagination-container -->
+	    </div>
+
+
+
     </div>
 
 </div>

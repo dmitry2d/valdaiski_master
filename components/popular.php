@@ -35,18 +35,29 @@
             </div>
         </div>
 
-        <div class="popular-percent text-center">
-            <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 15 из 50 проектов</div>
-            <div class="metric">
-                <div class="value" style="width:30%"></div>
+
+<!-- Миша возьми эти два блока и формат не меняй я поменял их по твоему формату и поменял css -->
+
+        <div class="get-more my-4">
+            <div class="d-inline-block text-center" data-use="show-more-1">
+                Загрузить еще...
             </div>
         </div>
 
-        <div class="text-center get-more">
-            <a href="" class="d-inline-block">
-                Загрузить еще...
-            </a>
+        <div data-pagination-num="1">
+            <!-- pagination-container -->
+            <div class="popular-percent text-center">
+                <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 11 из 48 проектов</div>
+                <div class="metric">
+                    <div class="value" style="width:37.5%"></div>
+                </div>
+            </div>
+            <!-- pagination-container -->
         </div>
+
+<!-- // Миша возьми эти два блока и формат не меняй я поменял их по твоему формату и поменял css -->
+
+
     
     </div>
 

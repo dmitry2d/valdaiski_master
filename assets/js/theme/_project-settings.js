@@ -3,6 +3,8 @@ window.settings = {
         url: 'https://domavn.geracl.ru/projects/get_section.php',
         // url: 'http://volcharo.ru/valdaiski_master/fake.php',
         section_variable: 'SECTION_ID',
-        container_selector: '[data-entity="container-1"]'
+        container_selector: '[data-entity="container-1"]',
+        get_more_selector:  '.popular .get-more',
+        percent_selector:  '.popular-percent'
     }
 }

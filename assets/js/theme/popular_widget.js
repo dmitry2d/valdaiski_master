@@ -22,6 +22,14 @@ $(document).ready(() => {
                 // Нахожу контент в полученном и заменяю его на странице
                 const newHTML = $($.parseHTML(data)).find(settings.container_selector).html();
                 $(settings.container_selector).html(newHTML);
+
+                // Нахожу и меняю "загрузить еще"
+                const getMoreHTML = $($.parseHTML(data)).find(settings.get_more_selector).html();
+                $(settings.get_more_selector).html(getMoreHTML);
+
+                // Нахожу и меняю "страница из"
+                const percentHTML = $($.parseHTML(data)).find(settings.percent_selector).html();
+                $(settings.percent_selector).html(percentHTML);
             }
         });
     };

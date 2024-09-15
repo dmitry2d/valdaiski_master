@@ -1928,38 +1928,21 @@
 					<!-- items-container -->
 		</div>
 		
-</div>
+    </div>
 
-	<div class="row bx-blue popular">
-		<div class="text-center get-more" style="margin: 15px;"
-			data-use="show-more-1">
+		<div class="text-center get-more my-4" data-use="show-more-1">
 			<div class="d-inline-block">Загрузить ещё...</div>
 		</div>
-	</div>
-<style>	.popular .get-more div{
-    display: inline-block;
-    color: #676e68;
-    border: 1px solid #676e68;
-    padding: 9px 50px;
-    font-size: 13px;
-    border-radius: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}</style>
 
 		<div data-pagination-num="1">
-		<!-- pagination-container -->
-		
-        <div class="popular-percent text-center">
-            <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 18 из 48 проектов</div>
-            <div class="metric">
-                <div class="value" style="width:37.5%"></div>
+		    <!-- pagination-container -->
+            <div class="popular-percent text-center">
+                <div class="text text-style-gray opacity-50 text-center">Вы посмотрели 11 из 48 проектов</div>
+                <div class="metric">
+                    <div class="value" style="width:3.5%"></div>
+                </div>
             </div>
-        </div>
-
-
-		<!-- pagination-container -->
-	</div>
+		    <!-- pagination-container -->
 	    </div>
 
 </div>
