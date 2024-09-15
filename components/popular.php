@@ -13,15 +13,16 @@
     
         <div class="tags">
             <div class="items">
-                <a href="#" class="item selected">Все проекты</a>
-                <a href="#" class="item">Финские и Скандинавские 80-140 м2</a>
-                <a href="#" class="item">Сканди Смарт 60-100 м2</a>
-                <a href="#" class="item">Сканди Дачи 30-60 м2</a>
-                <a href="#" class="item">Гаражи  /  Бани  /  Навесы</a>
+                <a href="#" class="item" SECTION_ID="0">Все проекты</a>
+                <a href="#" class="item" SECTION_ID="1">Финские и Скандинавские 80-140 м2</a>
+                <a href="#" class="item" SECTION_ID="2">Сканди Смарт 60-100 м2</a>
+                <a href="#" class="item" SECTION_ID="3">Сканди Дачи 30-60 м2</a>
+                <a href="#" class="item" SECTION_ID="4">Гаражи  /  Бани  /  Навесы</a>
             </div>
         </div>
 
-        <div class="popular-items">
+
+        <div class="popular-items" data-entity="container-1">
             <div class="row g-3 g-md-5">
                 <?php include "./components/popular-item.php" ?>
                 <?php include "./components/popular-item.php" ?>

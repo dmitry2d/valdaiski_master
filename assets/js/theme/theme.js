@@ -1,5 +1,6 @@
 
 
+import './_project-settings.js';
 import './common.js';
 import './color_mode.js';
 import './header_menu.js';
@@ -17,3 +18,4 @@ import './about-partners.js';
 import './popups.js';
 import './video-player.js';
 import './reviews.js';
+import './popular_widget.js';
