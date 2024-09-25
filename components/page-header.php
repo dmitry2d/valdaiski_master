@@ -13,13 +13,13 @@
             <a href="mailto:sale@domavn.ru" class="email text-style-lightest px-2 d-md-none d-xl-block">sale@domavn.ru</a>
             <div class="flex-grow-1 d-md-none"></div>
             <a href="phone:+78005509676" class="phone text-style-lightest ps-4">8 (800) 550-96-76</a>
-            <div class="color-mode align-items-center text-style-lightest ps-5 d-none d-lg-flex">
+            <!-- <div class="color-mode align-items-center text-style-lightest ps-5 d-none d-lg-flex">
                 <div class="mode light">Светлая</div>
                 <div class="switcher d-flex align-items-center px-2">
                     <img src="./assets/img/switcher.svg" alt="">
                 </div>
                 <div class="mode dark">Темная</div>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -106,7 +106,7 @@
                 <!-- / Гланвое меню  -->
                 
                 <!-- Кнопка -->
-                <div class="theme-button gradient outline ms-4 d-none d-xl-block">
+                <div class="theme-button gradient outline padding-2 ms-4 d-none d-xl-block">
                     <a href="">
                         <div class="wrap bg-white">
                             Дом в ипотеку от 5%

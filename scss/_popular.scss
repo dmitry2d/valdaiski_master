@@ -33,12 +33,19 @@
             border: 1px solid $color-secondary-grey;
             margin-right: 10px;
             display: inline-block;
+            margin-bottom: 20px;
             &.selected {
                 background: $color-secondary-grey;
                 color: white;
                 box-shadow: 0 2px 5px #44554754;
+                pointer-events: none;
             }
-            margin-bottom: 20px;
+            transition: 0.3s;
+            &:hover:not(.selected) {
+                background: $color-lighter;
+                border-color: $color-lighter;
+                color: $color-secondary-grey;
+            }
         }
     }
 
@@ -83,7 +90,7 @@
         .title {
             font-size: 21px;
             line-height: 1.2;
-            font-weight: 700;
+            font-weight: 600;
         }
         .area {
             font-size: 13px;
@@ -129,7 +136,7 @@
                 transition: background-color 0.3s;
                 &:hover {
                     box-shadow: 0 3px 6px rgba(var(--bs-style-primary-green-rgb), 0.4);
-                    background: $color-primary-green;
+                    background: $color-primary-green2;
                     color: white;
                 }
             }

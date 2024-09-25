@@ -1,0 +1,64 @@
+
+.page-footer {
+    overflow: hidden;
+    .logo-description {
+        font-size: 14px;
+    }
+    .footer-menu-items {
+        .item {
+            font-size: 14px;
+            .title {
+                text-transform: uppercase;
+                font-weight: 600;
+                padding-bottom: 5px;
+            }
+            a {
+                padding: 5px 0;
+                text-decoration: none;
+                color: $color-grey;
+            }
+        }
+    }
+    .footer-contacts {
+        position: relative;
+        .white-field {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -100px;
+            right: -100px;
+            background: white;
+            z-index: 1;
+        }
+    }
+    .footer-contacts-items {
+        position: relative;
+        z-index: 2;
+        .item {
+            font-size: 14px;
+            // width: 33%;
+            margin-top: 35px;
+            .title {
+                font-weight: 600;
+            }
+            .address {
+                margin-bottom: 1em;
+            }
+            .phone {
+                font-weight: 100;
+                text-decoration: none;
+            }
+        }
+    }
+    .association-title {
+        font-size: 14px;
+    }
+    .socials-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.page-footer-copyright {
+    font-size: 12px;
+}

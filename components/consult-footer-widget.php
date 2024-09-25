@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="d-flex social">
-                    <div class="flex-grow-1 social-title pe-xl-5">
+                    <div class="flex-grow-1 social-title pe-xl-2">
                         напишите нам<br>в удобном для вас мессенджере:
                     </div>
                     <div class="d-flex social-items ps-xxl-5">

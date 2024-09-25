@@ -1,4 +1,9 @@
 
+
+* {
+    font-smooth: always;
+}
+
 p {
     margin: 1em 0;
 }
@@ -11,5 +16,5 @@ h1 {
     font-size: 32px;
     font-weight: 300;
     letter-spacing: -0.02em;
-    margin: 0.75em 0;
+    // margin: 0.75em 0 0;
 }
