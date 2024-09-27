@@ -1,5 +1,7 @@
 .popular {
 
+    position: relative;
+
     .title {
         font-size: 40px;
         font-weight: 600;
@@ -14,11 +16,14 @@
     .tags {
         position: sticky;
         top: 90px;
-        overflow: hidden;
+        // overflow: hidden;
+        @include media-breakpoint-down(md) {
+            // overflow-x: auto;
+        }
         background: white;
         padding-top: 20px;
         padding-bottom: 0;
-        z-index: 1;
+        z-index: 3;
         .items {
             display: flex;
         }
@@ -28,7 +33,7 @@
             font-size: 14px;
             line-height: 1;
             text-wrap: nowrap;
-            padding: 10px 20px;
+            padding: 12px 20px;
             border-radius: 8px;
             border: 1px solid $color-secondary-grey;
             margin-right: 10px;
@@ -50,7 +55,10 @@
     }
 
     .popular-item {
+        display: block;
+        text-decoration: none;
         .photo {
+            z-index: 2;
             position: relative;
             aspect-ratio: 7 / 4;
             img {
@@ -76,9 +84,12 @@
             }
         }
         .data {
+            z-index: 1;
             padding: 29px 24px;
             background: #fafafa;
+            border: 1px solid #fafafa;
             border-radius: 0 0 4px 4px;
+            margin-top: -5px;
         }
         
         .about-title {
@@ -149,13 +160,14 @@
         &:hover {
             .data {
                 background: $color-lightest;
+                border-color: rgba(var(--bs-style-grey-rgb), 0.1);
             }
         }
     }
     .popular-percent {
         .metric {
             display: inline-block;
-            margin: 16px 0 21px;
+            margin: 16px 0 5px;
             height: 3px;
             width: 200px;
             background: #676E6840;

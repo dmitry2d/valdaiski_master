@@ -18,4 +18,6 @@ import './about-partners.js';
 import './popups.js';
 import './video-player.js';
 import './reviews.js';
-import './popular_widget.js';
+import './reviews.js';
+import './dragscroll.js';
+// import './popular_widget.js';

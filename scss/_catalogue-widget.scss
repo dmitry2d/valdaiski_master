@@ -6,9 +6,11 @@
     }
     .catalogue-widget-item {
         .wrapper {
+            display: block;
             background: $color-lightest;
             border-radius: 8px;
             padding: 30px 20px;
+            text-decoration: none;
         }
         .head {
             display: flex;
@@ -66,7 +68,7 @@
         .view {
 
             text-align: center;
-            a {
+            .a {
                 display: inline-block;
                 background: $color-secondary-grey;
                 color: white;

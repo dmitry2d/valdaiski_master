@@ -189,7 +189,7 @@
 
 <div class="page-footer-copyright bg-primary w-100 py-4 py-md-3">
 
-    <div class="container">
+    <div class="container my-3 py-1">
         <div class="d-flex flex-column flex-md-row align-items-center">
             <div class="order-3 order-md-1 flex-grow-1 text-style-light opacity-50 w-50 text-center text-md-start pt-3 pt-md-0">
                 Полное и частичное копирование материалов сайта запрещено.

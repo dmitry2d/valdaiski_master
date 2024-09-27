@@ -7,18 +7,26 @@
     
     &:not([ready]) {
         cursor: pointer;
+        &[vm-video-player] {
+            &::after {
+                background-image:url('../img/icn/icn-play.svg');
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        }
         &::after {
             content:'';
             position: absolute;
             inset: 0;
-            background: #00000090 url('../img/vk_play_button.svg') no-repeat center center;
+            background-color: #00000000;
             background-size: 15%;
-            opacity: 0;
-            transition: opacity 0.2s;
+            opacity: 1;
+            transition: 0.15s;
         }
         &:hover {
             &::after {
-                opacity: 1;
+                background-color: #00000070;
+                background-size: 17%;
             }
         }
     }

@@ -1,9 +1,7 @@
 
 $(document).ready (e => {
 
-    console.log (1);
     $('.pros-text-slider .item .title').on ('click', e => {
-        console.log (1);
         $(e.target).closest('.pros-text-slider .item').toggleClass('open');
     });
 // return

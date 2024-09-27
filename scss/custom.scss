@@ -34,6 +34,14 @@ $utilities: map-merge(
     ),
   )
 );
+$utilities: map-merge(
+  $utilities, (
+    "opacity": map-merge(
+      map-get($utilities, "opacity"),
+      ( responsive: true ),
+    ),
+  )
+);
 
 @import "../node_modules/bootstrap/scss/utilities/api";
 
@@ -93,5 +101,6 @@ $fa-font-path: "../webfonts";
 @import "video-player"; 
 @import "ipoteka"; 
 @import "order";
+@import "dragscroll";
 
 

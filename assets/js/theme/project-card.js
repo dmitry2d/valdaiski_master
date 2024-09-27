@@ -42,5 +42,10 @@ $(document).ready (e => {
         $(document).on('escKey', e => {
             $(`[project-comp-popup]`).removeClass('open');
         });
+        
+        $(document).on ('mouseup', function(e) {
+            var container = $('[project-comp-popup] .wrapper');
+            if (!container.is(e.target) && container.has(e.target).length === 0) $('[project-comp-popup]').removeClass('open');
+        });
 
     });

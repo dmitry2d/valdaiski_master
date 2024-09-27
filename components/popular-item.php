@@ -1,6 +1,6 @@
 
 
-<div class="popular-item col-6 col-xl-4">
+<a class="popular-item col-6 col-xl-4" href="">
     
     <div class="photo">
         <img src="./assets/img/photo/house01.png" alt="" class="w-100 rounded-2">
@@ -67,9 +67,9 @@
         <div class="border-bottom border-style-light"></div>
 
         <div class="d-flex mt-2 buttons mt-4 flex-column flex-lg-row">
-            <a href="" class="view order-2 order-lg-1 d-none d-md-inline-block">
+            <div class="view order-2 order-lg-1 d-none d-md-inline-block">
                 Смотреть проект
-            </a>
+            </div>
             <div class="price order-1 order-lg-2 mb-3 mb-lg-0">
                 <small>от</small> 3 450 000 ₽
             </div>    
@@ -77,7 +77,7 @@
     </div>
    
 
-</div>
+</a>
 
 
 

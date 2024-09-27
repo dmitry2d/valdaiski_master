@@ -23,4 +23,9 @@ $(document).ready (e => {
         }
     });
 
+    $(document).on ('mouseup', function(e) {
+        var container = $('[vm-popup] .wrapper');
+        if (!container.is(e.target) && container.has(e.target).length === 0) closeVMPopup();
+    });
+
 });

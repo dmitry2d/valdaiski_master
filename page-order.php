@@ -14,16 +14,16 @@
         <div class="top row g-lg-5">
             <div class="col-lg-6 d-flex">
                 <div class="photo">
-                    <img src="./assets/img/photo/house01.png" alt="">
+                    <img src="./assets/img/photo/delivery.png" alt="">
                 </div>
                 <div class="d-none d-lg-block px-4"></div>
             </div>
             <div class="col-lg-5 py-lg-5">
-                <h1 class="title mt-lg-0">Заказ и доставка</h1>
+                <h1 class="title mt-5 mt-lg-4">Заказ и доставка</h1>
                 <p class="text">
                     В данном разделе вы найдете информацию, об этапах нашей работы, заказе и доставке одноэтажных каркасных домов в скандинавском стиле.
                 </p>
-                <div class="theme-button gradient">
+                <div class="theme-button gradient mb-lg-4 mb-xl-5">
                     <a href="" class="wrap bg-white">
                             Заказать консультацию
                     </a>

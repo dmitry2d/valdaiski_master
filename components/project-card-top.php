@@ -8,10 +8,26 @@
                 
                 <div class="project-slider-main">
                     <div class="items">
-                        <div class="item"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                        <div class="item"><img src="./assets/img/photo/house01.png" alt=""></div>
-                        <div class="item"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                        <div class="item"><img src="./assets/img/photo/house01.png" alt=""></div>
+                        <div class="item">
+                            <a href="./assets/img/photo/article_house_1.jpg" data-lightbox="work">
+                                <img src="./assets/img/photo/article_house_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./assets/img/photo/house01.png" data-lightbox="work">
+                                <img src="./assets/img/photo/house01.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./assets/img/photo/article_house_1.jpg" data-lightbox="work">
+                                <img src="./assets/img/photo/article_house_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./assets/img/photo/house01.png" data-lightbox="work">
+                                <img src="./assets/img/photo/house01.png" alt="">
+                            </a>
+                        </div>
                     </div>
                     <div class="project-slider-nav">
                         <div class="project-slider-prev"><img src="./assets/img/arrow-right-white.svg" alt=""></div>
@@ -82,7 +98,7 @@
                         </div>
                     </div>
     
-                    <div class="theme-button gradient-ltr padding-2" vm-popup-open="request_work">
+                    <div class="theme-button gradient-ltr padding-2 w-100 text-center" vm-popup-open="request_work">
                         <a href="">
                             <div class="wrap text-white text-center">
                                 Отправить заявку
@@ -90,7 +106,7 @@
                         </a>
                     </div>
     
-                    <div class="theme-button gradient-ltr outline padding-2 mt-3">
+                    <div class="theme-button gradient-ltr outline padding-2 mt-3 w-100 text-center">
                         <a href="">
                             <div class="wrap bg-white text-center text-style-primary-green">
                                 Получить описание проекта
