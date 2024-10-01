@@ -76,46 +76,7 @@
                 </p>
             </div>
             
-        
-            <!-- Слайдер - Галерея -->
-            <div class="slider-gallery py-4">
-                <div class="slider-gallery-items">
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/house01.png" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/house01.png" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                    </div>
-                </div>
-                <div class="slider-gallery-nav py-2"></div>
-            </div>
-            <!-- / Слайдер - Галерея -->
-        
-            <!-- Слайдер - Галерея -->
-            <!-- <div class="slider-gallery py-4">
-                <div class="slider-gallery-items">
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/house01.png" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/house01.png" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                    </div>
-                    <div>
-                        <div class="wrapper"><img src="./assets/img/photo/article_house_1.jpg" alt=""></div>
-                    </div>
-                </div>
-                <div class="slider-gallery-nav py-2"></div>
-            </div> -->
-            <!-- / Слайдер - Галерея -->
+            <?php include './components/about-slider.php' ?>      
         
             <p class="my-4">
                 Развиваясь, наша компания вышла на рынок деревянного домостроения и укрепиляла свои позиции от Мурманска до Сочи. Мы строили дома и бани из бруса на обширной территории, но основнымми региона являлись Санкт-Петербург, Москва, Ленинградская и Московские области. В 2011 году мы запускаем компанию Валдайский Мастер и тихо, но верно меняем вектор в сторону каркасных домов.

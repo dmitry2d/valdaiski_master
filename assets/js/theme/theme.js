@@ -1,6 +1,7 @@
 
 
 import './_project-settings.js';
+import './_swipe.js';
 import './common.js';
 import './color_mode.js';
 import './header_menu.js';
@@ -20,4 +21,5 @@ import './video-player.js';
 import './reviews.js';
 import './reviews.js';
 import './dragscroll.js';
+import './about-slider.js';
 // import './popular_widget.js';

@@ -22,4 +22,16 @@ $(document).ready (() => {
     $('.mobile-menu a').on('click', e => {
         e.stopPropagation();
     });
+
+    // Click outside
+    $('.mobile-menu-back').on('click', e => {
+        $('.mobile-menu').removeClass('open');
+    });
+
+    //Swipe 
+
+    $(document).on('swipeLeft', function() {
+        $('.mobile-menu').removeClass('open');
+    });
+
 });

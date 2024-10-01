@@ -110,14 +110,15 @@
 
     .slider {
         position: relative;
-        height: 63px;
+        // height: 63px;
         // width: 400px;
         .slider-wrapper {
-            overflow: hidden;
-            position: absolute;
-            inset: 0;
+            // overflow: hidden;
+            // position: absolute;
+            // inset: 0;
         }
         .mother-capital-logo-items {
+            display: flex;
             .item {
                 width: 140px;
                 background: white;

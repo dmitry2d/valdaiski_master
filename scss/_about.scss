@@ -112,4 +112,17 @@
         height: 3rem;
     }
 
+    .photo {
+        img {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            @include media-breakpoint-down(lg) {
+                aspect-ratio: 4 / 3;
+            }
+            @include media-breakpoint-down(sm) {
+                aspect-ratio: 2 / 3;
+            }
+        }   
+    }
+
 }

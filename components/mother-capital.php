@@ -18,8 +18,8 @@
                     Основаная цель нашей компании строить одноэтажные каркасные дома доступные Всем, мы строим как небольшие дачные дома, так и оптимальные загородные дома с использованием собственных и кредитных средств, материнского капитала и ипотеки. Подробнее по тел: 8 (800) 550-96-76
                 </div>
             </div>
-            <div class="slider">
-                <div class="slider-wrapper">
+            <div class="slider" dragscroll>
+                <div class="slider-wrapper" dragwrap>
                     <div class="mother-capital-logo-items">
                         <div class="item"><img src="./assets/img/logos/Logo_company 01.png" alt=""></div>
                         <div class="item"><img src="./assets/img/logos/Logo_company 02.png" alt=""></div>
@@ -28,10 +28,10 @@
                         <div class="item"><img src="./assets/img/logos/Logo_company 05.png" alt=""></div>
                     </div>
                 </div>
-                <div class="nav d-none d-md-flex">
+                <!-- <div class="nav d-none d-md-flex">
                     <div class="prev"><img src="./assets/img/arr.svg" alt=""></div>
                     <div class="next"><img src="./assets/img/arr.svg" alt=""></div>
-                </div>
+                </div> -->
             </div>
             <div class="stats mt-4 p-4">
                 <div class="row g-2">

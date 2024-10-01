@@ -3,10 +3,13 @@
     <div class="container">
 
         <div class="row align-items-end my-2">
-            <div class="title col-xl-8">
+            <div class="d-none d-md-block title col-xl-8">
                 Каталог проектов <div class=""></div>«Валдайского Мастера»
             </div>
-            <div class="description col-xl-4 my-3 m-xl-0 pb-xl-2">
+            <div class="d-md-none title col-xl-8 my-2">
+                Популярные проекты зимних и сезонных домов
+            </div>
+            <div class="description col-xl-4 my-1 m-xl-0 pb-xl-2">
                 В нашем каталоге вы найдете проекты одноэтажных зимних и сезонных домов в финском и скандинавском стиле.
             </div>
         </div>

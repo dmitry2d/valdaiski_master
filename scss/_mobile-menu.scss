@@ -1,6 +1,18 @@
 .mobile-menu {
+
+    .mobile-menu-back {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #00000050;
+        display: none;        
+    }
+
     position: fixed;
-    z-index: 10000;
+    z-index: 10001;
     top: 0;
     left: -100%;
     width: 100%;
@@ -8,16 +20,22 @@
     transition: left 0.24s ease-out;
     &.open {
         left: 0;
+        .mobile-menu-back {
+            display: block;        
+        }
     }
     .close {
         padding: 10px;
         cursor: pointer;
     }
     .wrapper {
-        padding: 45px 32px;
+        z-index: 2;
+        padding: 45px 20px;
         position: absolute;
         inset: 0;
+        right: 50px;
         background: white;
+
     }
     .title {
         font-size: 33px;

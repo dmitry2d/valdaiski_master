@@ -1,8 +1,8 @@
 
 
-<div class="vk-video-widget bg-style-green-darkest py-5">
+<div class="vk-video-widget bg-style-green-darkest py-4 py-md-5">
 
-    <div class="container pt-4 mb-2">
+    <div class="container pt-md-4 mb-2">
         
         <div class="right">
             

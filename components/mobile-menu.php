@@ -1,18 +1,20 @@
 <!-- Мобильное меню -->
 <div class="mobile-menu d-xl-none">
+    <div class="mobile-menu-back"></div>
     <div class="wrapper d-flex flex-column">
 
         <div class="d-flex align-items-center">
 
             <!-- Цветовой режим -->
-            <div class="flex-grow-1">    
-                <div class="color-mode align-items-center d-flex">
+            <div class="flex-grow-1">   
+                <div class="title">Меню</div> 
+                <!-- <div class="color-mode align-items-center d-flex">
                     <div class="mode light">Светлая</div>
                     <div class="switcher d-flex align-items-center px-2">
                         <img src="./assets/img/switcher.svg" alt="">
                     </div>
                     <div class="mode dark">Темная</div>
-                </div>
+                </div> -->
             </div>
             <!-- /Цветовой режим -->
             
@@ -24,16 +26,19 @@
 
         </div>
 
-        <div class="title">Меню</div>
+        <!-- <div class="title">Меню</div> -->
 
         <!-- Пункты меню -->
         <div class="menu-items flex-grow-1">
-            <div class="item">
+            <div class="item open">
                 <div class="item-title">
                     <span>Проекты домов</span>
                     <img src="./assets/img/arr.svg" alt="">
                 </div>
                 <div class="subitems">
+                    <div class="subitem">
+                        <a href="" class="subitem">Все проекты</a>
+                    </div>
                     <div class="subitem">
                         <a href="" class="subitem">Финские и Скандинавские</a>
                     </div>
@@ -101,7 +106,7 @@
                 <div class="theme-button outline">
                         <a href="">
                             <div class="wrap bg-white">
-                                Дом в ипотеку от 5%
+                                Заказать звонок
                             </div>
                         </a>
                 </div>

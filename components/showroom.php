@@ -12,22 +12,27 @@
     </div>
 
     <div class="showroom-slider">
-
-        <div class="showroom-items my-3">
-            <?php include "./components/showroom-item.php" ?>
-            <?php include "./components/showroom-item.php" ?>
-            <?php include "./components/showroom-item.php" ?>
-            <?php include "./components/showroom-item.php" ?>
-            <?php include "./components/showroom-item.php" ?>
+        <div dragscroll>
+            <div dragwrap>
+                <div class="showroom-items my-3">
+                    <?php include "./components/showroom-item.php" ?>
+                    <?php include "./components/showroom-item.php" ?>
+                    <?php include "./components/showroom-item.php" ?>
+                    <?php include "./components/showroom-item.php" ?>
+                    <?php include "./components/showroom-item.php" ?>
+                </div>
+            </div>
         </div>
-
-        <div class="d-flex align-items-center">
+    </div>
+    
+    <div class="border-top border-style-light-grey w-100"></div>
+        <!-- <div class="d-flex align-items-center">
             <div class="border-top border-style-light-grey w-100"></div>
             <div class="showroom-nav ps-3 d-flex">
                 <div class="showroom-prev"><img src="./assets/img/arr.svg" alt=""></div>
                 <div class="showroom-next"><img src="./assets/img/arr.svg" alt=""></div>
             </div>
-        </div>
+        </div> -->
     
     </div>
 

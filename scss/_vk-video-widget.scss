@@ -231,8 +231,14 @@
 }
 
 
+@include media-breakpoint-down(md) {
+    .vk-video-widget {
+    }
+}
+
 @include media-breakpoint-down(sm) {
     .vk-video-widget {
+        background-position: 0 -430px;
         .videos .main {
             left: -30px;
             width: calc(100% + 60px);

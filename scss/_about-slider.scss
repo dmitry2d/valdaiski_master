@@ -1,0 +1,112 @@
+.about-slider {
+
+    aspect-ratio: 4 / 3;
+
+    .about-slider-main {
+        
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+
+
+        .about-slider-main-items {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: stretch;
+            border-radius: 4px;
+            overflow: hidden;
+            .slick-list {
+                display: flex;
+                align-items: stretch;
+            }
+            .slick-track {
+                display: flex;
+                align-items: stretch;
+            }
+            .slick-slide {
+                height: auto;
+            }
+            .about-slider-main-item {
+                width: 100%;
+                height: unset;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .about-slider-nav {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            pointer-events: none;
+            & > div {
+                cursor: pointer;
+                pointer-events: all;
+            }
+            .about-slider-prev {
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+    }
+
+    .about-slider-preview {
+        
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+
+        .about-slider-preview-items {
+            margin-top: 10px;
+            display: flex;
+            align-items: stretch;
+            overflow: hidden;
+            .slick-list {
+                display: flex;
+                align-items: stretch;
+            }
+            .slick-track {
+                display: flex;
+                align-items: stretch;
+            }
+            .slick-slide {
+                height: auto;
+            }
+            .about-slider-preview-item {
+                width: 101px;
+                height: 64px;
+                margin-right: 5px;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &.slick-current {
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        bottom: 0;
+                        width: 100%;
+                        height: 5px;
+                        background: $color-some-green;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

@@ -8,7 +8,7 @@
             <div class="page-footer-top-grid-one">
                 <div class="order-1">
                     <div class="d-flex flex-wrap">
-                        <a href="" class="mt-2 mt-sm-5 pe-5">
+                        <a href="" class="mt-5 pe-5">
                             <img src="./assets/img/logo.svg" alt="">
                         </a>
                         <a href="" class="mt-5">
@@ -178,12 +178,6 @@
 
         </div>
 
-
-       
-
-
-
-
     </div>
 </div>
 
@@ -191,7 +185,7 @@
 
     <div class="container my-3 py-1">
         <div class="d-flex flex-column flex-md-row align-items-center">
-            <div class="order-3 order-md-1 flex-grow-1 text-style-light opacity-50 w-50 text-center text-md-start pt-3 pt-md-0">
+            <div class="order-3 order-md-1 flex-grow-1 text-style-light opacity-50 w-lg-50 text-center text-md-start pt-3 pt-md-0">
                 Полное и частичное копирование материалов сайта запрещено.
             </div>
             <div class="order-1 order-md-2 ps-md-4">

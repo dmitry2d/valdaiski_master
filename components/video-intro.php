@@ -12,12 +12,12 @@
             <div class="description text-style-green-medium my-4">
                 Зимние, сезонные и дачные каркасные дома в одноэтажном формате с гарантией 10 лет. У нас каталоге вы найдете проекты домов, дачи в финском и скандинавском стиле
             </div>
-            <div class="d-sm-flex buttons my-5 justify-content-center justify-content-xl-start pb-3 pb-xl-0">
+            <div class="d-flex flex-column flex-md-row buttons my-5 justify-content-center justify-content-xl-start pb-3 pb-xl-0">
 
                     <!-- Кнопка -->
                     <div class="theme-button gradient-ltr outline" vm-popup-open="get_consult">
                         <a href="">
-                            <div class="wrap text-white text-center text-sm-start">
+                            <div class="wrap text-white text-center text-md-start">
                                 Получить консультацию
                             </div>
                         </a>
@@ -25,9 +25,9 @@
                     <!-- /Кнопка -->
 
                     <!-- Кнопка -->
-                    <div class="theme-button gradient outline ms-sm-4 mt-3 mt-sm-0">
+                    <div class="theme-button gradient outline ms-md-4 mt-3 mt-md-0">
                         <a href="">
-                            <div class="wrap bg-white text-center text-sm-start">
+                            <div class="wrap bg-white text-center text-md-start">
                                 Дом в ипотеку от 5%
                             </div>
                         </a>
