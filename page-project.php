@@ -3,9 +3,13 @@
     include "./components/header.php";
 
     include "./components/page-header.php";
-
-    include "./components/breadcrumbs.php";
 ?>
+
+<div class="d-none d-md-block">
+
+    <?php include "./components/breadcrumbs.php"; ?>
+
+</div>
 
 <div class="page-content">
 

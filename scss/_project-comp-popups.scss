@@ -128,7 +128,7 @@
     @include media-breakpoint-down(md) {
         
         .wrapper {
-            width: 100%;
+            width: calc(100% - 30px);
         }        
         .price {
             flex-direction: column;

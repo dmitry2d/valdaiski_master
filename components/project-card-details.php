@@ -122,11 +122,11 @@
         
         <div class="container">
 
-            <div class="project-description-title mb-5">
+            <div class="project-description-title mb-4 mb-md-5">
                 Проект: <b>«Сканди СПб 122»</b>
             </div>
             <div class="d-lg-flex">
-                <div class="project-description-tag mb-4 mb-lg-0">
+                <div class="project-description-tag mb-3 mb-md-4 mb-lg-0">
                     описание
                 </div>
                 <div class="row project-description-text align-items-start">
@@ -171,10 +171,12 @@
 
     <div class="project-card-video py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-5">
+            <div class="project-card-video-grid align-items-center">
+                <div class="project-card-video-grid-1">
                     <div class="project-card-tag">технология строительства</div>
-                    <div class="project-card-title my-3 my-lg-5">Хотите узнать как мы строим каркасные дома?</div>
+                    <div class="project-card-title my-4 mb-5 my-lg-5">Хотите узнать как мы строим каркасные дома?</div>
+                </div>
+                <div class="project-card-video-grid-2">
                     <div class="left-2 mt-5 mt-lg-0 mb-4 mb-xl-0 text-center text-md-start d-md-flex d-xl-block w-xl-75 w-xxl-50">
                         <div class="social-button-big-vk">
                             <a href="">Смотреть на VK видео</a>
@@ -187,15 +189,13 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-xl-7">
-                    <div class="project-card-video">
-                        <div class="project-card-video-wrapper">
+                <div class="project-card-video-grid-3">
+                    <div class="project-card-video-wrapper shadow-lg">
 
                         <div class="vm-video" vm-video-player="14663474_456240156" vm-video-container="index-top">
                             <img src="./assets/img/_vk_video_preview.png" alt="">
                         </div>
 
-                        </div>
                     </div>
                 </div>
             </div>

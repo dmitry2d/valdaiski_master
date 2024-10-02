@@ -13,7 +13,7 @@ $(document).ready (() => {
         let deltaY = document.touchdata.startY - document.touchdata.endY;
 
         if (deltaY < 50 && deltaY > -50 && deltaX > 50) $(document).trigger('swipeLeft');
-        if (deltaY < 50 && deltaY > -50 && deltaX < -50) $(document).trigger('swipeReft');
+        if (deltaY < 50 && deltaY > -50 && deltaX < -50) $(document).trigger('swipeRight');
     }
     
     document.addEventListener('touchstart', e => {

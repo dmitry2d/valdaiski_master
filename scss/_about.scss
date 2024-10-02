@@ -44,6 +44,11 @@
         padding: 32px 36px;
         position: sticky;
         top: 85px;
+        
+        @include media-breakpoint-down(lg) {
+            padding: 30px 22px;
+        }        
+
         .title {
             font: 200 28px/1.1 $fmain;
             color: $color-primary-green;

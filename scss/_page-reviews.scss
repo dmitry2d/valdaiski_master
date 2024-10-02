@@ -6,6 +6,10 @@
         color: $color-secondary-grey;
         position: sticky;
         top: 110px;
+        @include media-breakpoint-down(lg) {
+            position: relative;
+            top: 0;
+        }
     }
     .reviews-dir-text {
         font: italic 500 15px/1.5 $fmain;

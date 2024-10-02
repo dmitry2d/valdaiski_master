@@ -10,7 +10,8 @@ $(document).ready (e => {
             dots: false,
             centerMode: false,
             asNavFor:  $('.about-slider-preview-items'),
-            infinite: true
+            infinite: true,
+            lazyLoad: 'ondemand'
         });
         $('.about-slider-preview-items').slick({
             slidesToScroll: 1,
@@ -19,7 +20,8 @@ $(document).ready (e => {
             arrows: false,
             centerMode: false,
             focusOnSelect: true,
-            variableWidth: true
+            variableWidth: true,
+            lazyLoad: 'ondemand'
         });
 
 });

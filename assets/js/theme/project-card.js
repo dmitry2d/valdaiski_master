@@ -39,7 +39,7 @@ $(document).ready (e => {
         $('[project-comp-popup] .close').on('click', function (){
             $(this).closest('[project-comp-popup]').removeClass('open');
         });
-        $(document).on('escKey', e => {
+        $(document).on('escKey swipeLeft swipeRight', e => {
             $(`[project-comp-popup]`).removeClass('open');
         });
         
@@ -47,5 +47,7 @@ $(document).ready (e => {
             var container = $('[project-comp-popup] .wrapper');
             if (!container.is(e.target) && container.has(e.target).length === 0) $('[project-comp-popup]').removeClass('open');
         });
+
+
 
     });

@@ -163,6 +163,7 @@
     }
     
     @include media-breakpoint-down(lg) {
+
         .ipoteka-top {
 
             padding: 0;
@@ -181,6 +182,11 @@
                 position: relative;
                 width: 100%;
                 background: rgba(var(--bs-style-primary-green-rgb), 1);
+                padding-top: 28px;
+                padding-bottom: 28px;
+            }
+            .ipoteka-top-title {
+                line-height: 1.1;
             }
             .ipoteka-top-buttons {
                 display: block;
@@ -188,6 +194,7 @@
                     display: block;
                     width: 100%;
                     margin-bottom: 10px;
+                    text-align: center;
                 }
             }
 
