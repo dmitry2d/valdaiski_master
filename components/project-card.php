@@ -33,14 +33,13 @@
 
     <style>
         @media screen and (max-width: 600px) {
-            
-        }
-        .breadcrumbs {
-            padding: 0;
-            margin: 10px 0!important;
-        }
-        .breadcrumbs * {
-            display: none;
+            .breadcrumbs {
+                padding: 0;
+                margin: 10px 0!important;
+            }
+            .breadcrumbs * {
+                display: none;
+            }
         }
     </style>
 
