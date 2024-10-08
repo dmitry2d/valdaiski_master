@@ -20,11 +20,13 @@
                     <div class="d-flex h-100 flex-column flex-md-row">
                         <div class="col-md-4 order-2 order-md-1 pt-4 pt-md-0">
                             <div class="map h-100">
-                                <a target="_blank" href="https://yandex.com/map-widget/v1/?um=constructor%3Afb9cb5b9dabc7ca128b48960bf9ea3dde9f681efbbc37787200d81e5382f8a09&amp;source=constructor"></a>
-                                <iframe
+                                <a target="_blank" href="https://yandex.com/map-widget/v1/?um=constructor%3Afb9cb5b9dabc7ca128b48960bf9ea3dde9f681efbbc37787200d81e5382f8a09&amp;source=constructor">
+                                    <img src="./assets/img/maps/map1.png" alt="">
+                                </a>
+                                <!-- <iframe
                                     src="https://yandex.com/map-widget/v1/?um=constructor%3Afb9cb5b9dabc7ca128b48960bf9ea3dde9f681efbbc37787200d81e5382f8a09&amp;source=constructor"
                                     width="100%" height="100%" frameborder="0">
-                                </iframe>
+                                </iframe> -->
                             </div>
                         </div>
                         <div class="col-md-8 ps-md-4 order-1 order-md-2">
@@ -88,9 +90,12 @@
                     <div class="d-flex h-100 flex-column flex-md-row">
                         <div class="col-md-4 order-2 order-md-1 pt-4 pt-md-0">
                             <div class="map h-100">
-                                <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A807e76c5123199c2d70627cf7ce506746bf874944dbf40f6f1d17242210278bf&amp;source=constructor"
+                                <a target="_blank" href="https://yandex.com/map-widget/v1/?um=constructor%3A807e76c5123199c2d70627cf7ce506746bf874944dbf40f6f1d17242210278bf&amp;source=constructor">
+                                    <img src="./assets/img/maps/map2.png" alt="">
+                                </a>
+                                <!-- <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A807e76c5123199c2d70627cf7ce506746bf874944dbf40f6f1d17242210278bf&amp;source=constructor"
                                     width="100%" height="100%" frameborder="0">
-                                </iframe>
+                                </iframe> -->
                             </div>
                         </div>
                         <div class="col-md-8 ps-md-4 order-1 order-md-2 d-flex flex-column h-100">

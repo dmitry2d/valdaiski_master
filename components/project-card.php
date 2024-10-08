@@ -31,5 +31,15 @@
         include "./components/project-card-details.php";
     ?>
 
+    <style>
+        .breadcrumbs {
+            padding: 0;
+            margin: 10px 0!important;
+        }
+        .breadcrumbs * {
+            display: none;
+        }
+    </style>
+
 </div>
 
