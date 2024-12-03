@@ -18,15 +18,15 @@
     ?>
 
     <?php
-        include "./components/popular.php";
+        // include "./components/popular.php";
     ?>
 
     <?php
-        include "./components/catalogue-widget.php";
+        // include "./components/catalogue-widget.php";
     ?>
 
     <?php
-        include "./components/individual-widget.php";
+        // include "./components/individual-widget.php";
     ?>
 
     <?php

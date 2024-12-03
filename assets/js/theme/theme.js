@@ -22,4 +22,4 @@ import './reviews.js';
 import './reviews.js';
 import './dragscroll.js';
 import './about-slider.js';
-// import './popular_widget.js';
+import './popular_widget.js';

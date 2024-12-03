@@ -2,7 +2,7 @@
     position: relative;
     &::-webkit-scrollbar {
         pointer-events: none;
-        width: 5px;
+        width: 1px;
     }
     &::-webkit-scrollbar-track {
         background: transparent;
