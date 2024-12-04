@@ -2,45 +2,55 @@
 
 $(document).ready (e => {
 
+        /// Слайдер карточки проекта
 
-        //// Слайдер для карточки проекта
         const card_slider = {
-            active_slide: 0,
-            image_list: [],
+            index: 0,
+            length: $('.project-slider-gallery .item').length
         };
 
-        // Вытаскиваю картинки из слайдера
-        card_slider.image_list = $('.project-slider-gallery .item img').map((index, element) => {
-            return $(element).attr('src');
+        // Дублирую превью картинки в основное окно слайдера
+        $('.project-slider-gallery .item img').map((index, element) => {
+            let html =
+            `<div class="item">
+                <a href="${$(element).attr('src')}" data-lightbox="work-card">
+                    <img src="">
+                </a>
+            </div>`;
+            $('.project-slider-main .items').append(html);
         });
 
         // Ставлю активную картинку
         card_slider.setImage = function () {
-            let img_src = card_slider.image_list[card_slider.active_slide];
-            $('.project-slider-main .items .item img').attr('src', img_src);
-            $('.project-slider-main .items .item a').attr('href', img_src);
-            $('.project-slider-gallery .items .item').removeClass('active');
-            $(`.project-slider-gallery .items .item:nth-child(${card_slider.active_slide + 1})`).addClass('active');
+            // Активирую большой слайд
+            let img_src = $(`.project-slider-main .items .item:nth-child(${card_slider.index + 1}) a`).attr('href');
+            $(`.project-slider-main .items .item img`).attr('src', '');
+            $(`.project-slider-main .items .item:nth-child(${card_slider.index + 1}) img`).attr('src', img_src);
+            $(`.project-slider-main .items .item`).removeClass('active');
+            $(`.project-slider-main .items .item:nth-child(${card_slider.index + 1})`).addClass('active');
+            // Выделяю превью слайд
+            $(`.project-slider-gallery .items .item`).removeClass('active');
+            $(`.project-slider-gallery .items .item:nth-child(${card_slider.index + 1})`).addClass('active');
         }
         card_slider.setImage();
 
         // Клик на превью
         $('.project-slider-gallery .item').click (function () {
-            if (window.dragscrollOffset) return; // если польхзователь тащит превью колбасу
-            card_slider.active_slide = $(this).index();
+            if (window.dragscrollOffset) return; // если пользователь тащит превью не надо ничего делать
+            card_slider.index = $(this).index();
             card_slider.setImage();
         });
         // Взад вперед
         $('.project-slider-prev').click(function () {
-           card_slider.active_slide = (card_slider.active_slide == 0) ? 
-                card_slider.image_list.length - 1 :
-                card_slider.active_slide - 1;
+           card_slider.index = (card_slider.index == 0) ? 
+                card_slider.length - 1 :
+                card_slider.index - 1;
             card_slider.setImage();
         });
         $('.project-slider-next').click(function () {
-           card_slider.active_slide = (card_slider.active_slide == card_slider.image_list.length - 1) ? 
+           card_slider.index = (card_slider.index == card_slider.length - 1) ? 
                 0 :
-                card_slider.active_slide + 1;
+                card_slider.index + 1;
             card_slider.setImage();
         });
     

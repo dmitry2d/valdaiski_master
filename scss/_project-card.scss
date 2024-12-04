@@ -96,25 +96,19 @@
             align-items: stretch;
             border-radius: 8px;
             overflow: hidden;
-            .slick-list {
-                display: flex;
-                align-items: stretch;
-            }
-            .slick-track {
-                display: flex;
-                align-items: stretch;
-            }
-            .slick-slide {
-                height: auto;
-            }
             .item {
-                width: 100%;
-                height: unset;
-                position: relative;
+                position: absolute;
+                inset: 0;
+                pointer-events: none;
+                opacity: 0;
                 img {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                }
+                &.active {
+                    pointer-events: all;
+                    opacity: 1;
                 }
             }
         }

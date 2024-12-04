@@ -8,28 +8,6 @@
                 
                 <div class="project-slider-main">
                     <div class="items">
-                        <div class="item">
-                            <a href="" data-lightbox="work">
-                                <img src="">
-                            </a>
-                        </div>
-                        <!-- <div class="item">
-                        </div>
-                        <div class="item">
-                            <a href="./assets/img/photo/house01.png" data-lightbox="work">
-                                <img src="./assets/img/photo/house01.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/img/photo/article_house_1.jpg" data-lightbox="work">
-                                <img src="./assets/img/photo/article_house_1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/img/photo/house01.png" data-lightbox="work">
-                                <img src="./assets/img/photo/house01.png" alt="">
-                            </a>
-                        </div> -->
                     </div>
                     <div class="project-slider-nav">
                         <div class="project-slider-prev"><img src="./assets/img/arrow-right-white.svg" alt=""></div>
