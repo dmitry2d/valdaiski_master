@@ -6,6 +6,8 @@
                         
             <div class="project-slider-main-wrapper">
                 
+            
+                <!-- Изменения 05/12 -->
                 <div class="project-slider-main">
                     <div class="items">
                     </div>
@@ -14,6 +16,8 @@
                         <div class="project-slider-next"><img src="./assets/img/arrow-right-white.svg" alt=""></div>
                     </div>
                 </div>
+                <!-- // Изменения 05/12 -->
+
 
             </div>
 
